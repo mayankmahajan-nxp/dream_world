@@ -1,382 +1,254 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
-    <asset>
-        <contributor>
-            <authoring_tool>SketchUp 19.0.0</authoring_tool>
-        </contributor>
-        <created>2019-06-06T23:20:16Z</created>
-        <modified>2019-06-06T23:20:16Z</modified>
-        <unit meter="0.0254" name="inch" />
-        <up_axis>Z_UP</up_axis>
-    </asset>
-
-    <!-- Step 1: Insert NEW <library_effects> </library_effects> -->
-    <library_effects>
-    <!-- Step 2: Set <effect id=""> according to url in <library_materials> <instance_effect url="" -->
-    <!-- Add one <effect id=""> </effect> pair per texture in geometry -->
-    <effect id="ID5">
-      <profile_COMMON>
-
-        <!-- Step 3a: Rename these, use original <newparam sid=""> tags -->
-        <newparam sid="ID7">
-          <surface type="2D">
-            <!-- Step 3a: Set <init_from> according to id in <library_images> <image id="xxx"  -->
-            <init_from>ID6</init_from>
-          </surface>
-        </newparam>
-        <!-- Step 3b: Rename these, use original <newparam sid=""> tags -->
-        <newparam sid="ID8">
-          <sampler2D>
-            <!-- Step 3b: Use original source values -->
-            <source>ID7</source>
-          </sampler2D>
-        </newparam>
-
-        <technique sid="COMMON">
-          <blinn>
-            <emission>
-              <color>0 0 0 1</color>
-            </emission>
-            <ambient>
-              <color>1.0 1.0 1.0 1</color>
-            </ambient>
-            <diffuse>
-              <!-- Step 4: Use original <technique sid=""> <texture texture= .. values -->
-              <texture texture="ID8" texcoord="UVSET0" />
-            </diffuse>
-            <specular>
-              <color>0.9 0.9 0.9 1</color>
-            </specular>
-            <shininess>
-              <float>10</float>
-            </shininess>
-            <reflective>
-              <color>0 0 0 1</color>
-            </reflective>
-            <transparent opaque="A_ONE">
-              <color>1 1 1 1</color>
-            </transparent>
-            <transparency>
-              <float>1</float>
-            </transparency>
-          </blinn>
-          <extra>
-            <technique profile="OpenCOLLADA3dsMax">
-              <specularLevel>
-                <!-- Step 4: Use original <technique sid=""> <texture texture= .. values -->
-                <texture texture="ID8" texcoord="UVSET0"/>
-              </specularLevel>
-            </technique>
-          </extra>
-        </technique>
-      </profile_COMMON>
-
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.2 commit date:2024-12-16, commit time:21:10, hash:32f5fdce0a0a</authoring_tool>
+    </contributor>
+    <created>2025-02-10T16:12:57</created>
+    <modified>2025-02-10T16:12:57</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="skp_camera_Last_Saved_SketchUp_View-camera" name="skp_camera_Last_Saved_SketchUp_View">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">0</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">1</znear>
+            <zfar sid="zfar">1000</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
       <extra>
-        <technique profile="OpenCOLLADA3dsMax">
-          <extended_shader>
-            <apply_reflection_dimming>0</apply_reflection_dimming>
-            <dim_level>0</dim_level>
-            <falloff_type>0</falloff_type>
-            <index_of_refraction>1.5</index_of_refraction>
-            <opacity_type>0</opacity_type>
-            <reflection_level>3</reflection_level>
-            <wire_size>1</wire_size>
-            <wire_units>0</wire_units>
-          </extended_shader>
-          <shader>
-            <ambient_diffuse_lock>1</ambient_diffuse_lock>
-            <ambient_diffuse_texture_lock>1</ambient_diffuse_texture_lock>
-            <diffuse_specular_lock>0</diffuse_specular_lock>
-            <soften>0.1</soften>
-            <use_self_illum_color>0</use_self_illum_color>
-          </shader>
+        <technique profile="blender">
+          <shiftx sid="shiftx" type="float">0</shiftx>
+          <shifty sid="shifty" type="float">0</shifty>
+          <dof_distance sid="dof_distance" type="float">10</dof_distance>
         </technique>
       </extra>
-    </effect>
-
-    <!-- Add one <effect id=""> </effect> pair per texture in geometry -->
-    <effect id="ID18">
+    </camera>
+  </library_cameras>
+  <library_effects>
+    <effect id="balic_berch2-effect">
       <profile_COMMON>
-      
-        <!-- Step 3a: Rename these, use original <newparam sid=""> tags -->
-        <newparam sid="ID20">
-          <surface type="2D">
-            <!-- Step 3a: Set <init_from> according to id in <library_images> <image id="xxx"  -->
-            <init_from>ID19</init_from>
-          </surface>
-        </newparam>
-        <!-- Step 3b: Rename these, use original <newparam sid=""> tags -->
-        <newparam sid="ID21">
-          <sampler2D>
-            <!-- Step 3b: Use original source values -->
-            <source>ID20</source>
-          </sampler2D>
-        </newparam>
-
-        <technique sid="COMMON">
-          <blinn>
+        <technique sid="common">
+          <lambert>
             <emission>
-              <color>0 0 0 1</color>
+              <color sid="emission">0 0 0 1</color>
             </emission>
-            <ambient>
-              <color>1.0 1.0 1.0 1</color>
-            </ambient>
             <diffuse>
-              <!-- Step 4: Use original <technique sid=""> <texture texture= .. values -->
-              <texture texture="ID21" texcoord="UVSET0" />
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
             </diffuse>
-            <specular>
-              <color>0.9 0.9 0.9 1</color>
-            </specular>
-            <shininess>
-              <float>10</float>
-            </shininess>
-            <reflective>
-              <color>0 0 0 1</color>
-            </reflective>
-            <transparent opaque="A_ONE">
-              <color>1 1 1 1</color>
-            </transparent>
-            <transparency>
-              <float>1</float>
-            </transparency>
-          </blinn>
-          <extra>
-            <technique profile="OpenCOLLADA3dsMax">
-              <specularLevel>
-                <!-- Step 4: Use original <technique sid=""> <texture texture= .. values -->
-                <texture texture="ID21" texcoord="UVSET0" />
-              </specularLevel>
-            </technique>
-          </extra>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
         </technique>
       </profile_COMMON>
-
-      <extra>
-        <technique profile="OpenCOLLADA3dsMax">
-          <extended_shader>
-            <apply_reflection_dimming>0</apply_reflection_dimming>
-            <dim_level>0</dim_level>
-            <falloff_type>0</falloff_type>
-            <index_of_refraction>1.5</index_of_refraction>
-            <opacity_type>0</opacity_type>
-            <reflection_level>3</reflection_level>
-            <wire_size>1</wire_size>
-            <wire_units>0</wire_units>
-          </extended_shader>
-          <shader>
-            <ambient_diffuse_lock>1</ambient_diffuse_lock>
-            <ambient_diffuse_texture_lock>1</ambient_diffuse_texture_lock>
-            <diffuse_specular_lock>0</diffuse_specular_lock>
-            <soften>0.1</soften>
-            <use_self_illum_color>0</use_self_illum_color>
-          </shader>
-        </technique>
-      </extra>
     </effect>
-    
+    <effect id="balic_berch3-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
   </library_effects>
-  <!-- END OF NEW <library_effects> -->
-
-    <library_cameras>
-        <camera id="ID1" name="skp_camera_Last_Saved_SketchUp_View">
-            <optics>
-                <technique_common>
-                    <perspective>
-                        <yfov>35</yfov>
-                        <aspect_ratio>0</aspect_ratio>
-                        <znear>1</znear>
-                        <zfar>1000</zfar>
-                    </perspective>
-                </technique_common>
-            </optics>
-        </camera>
-    </library_cameras>
-    <library_visual_scenes>
-        <visual_scene id="ID2">
-            <node name="SketchUp">
-                <instance_geometry url="#ID3">
-                    <bind_material>
-                        <technique_common>
-                            <instance_material symbol="Material2" target="#ID4">
-                                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
-                            </instance_material>
-                        </technique_common>
-                    </bind_material>
-                </instance_geometry>
-                <instance_geometry url="#ID16">
-                    <bind_material>
-                        <technique_common>
-                            <instance_material symbol="Material2" target="#ID17">
-                                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
-                            </instance_material>
-                        </technique_common>
-                    </bind_material>
-                </instance_geometry>
-                <instance_geometry url="#ID29">
-                    <bind_material>
-                        <technique_common>
-                            <instance_material symbol="Material2" target="#ID17">
-                                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
-                            </instance_material>
-                        </technique_common>
-                    </bind_material>
-                </instance_geometry>
-                <node name="skp_camera_Last_Saved_SketchUp_View">
-                    <matrix>0.7498628 -0.2010886 0.6302928 41.3988 0.6615933 0.2279178 -0.7143863 -64.57957 0 0.9526893 0.303946 15.20843 0 0 0 1</matrix>
-                    <instance_camera url="#ID1" />
-                </node>
-            </node>
-        </visual_scene>
-    </library_visual_scenes>
-    <library_geometries>
-        <geometry id="ID3">
-            <mesh>
-                <source id="ID9">
-                    <float_array id="ID13" count="48">23.62205 0 0 23.62205 -38.58268 0.7874016 23.62205 -38.58268 0 23.62205 0 0.7874016 0 0 0.7874016 23.62205 0 0 0 0 0 23.62205 0 0.7874016 23.62205 -38.58268 0.7874016 0 -38.58268 0 23.62205 -38.58268 0 0 -38.58268 0.7874016 0 0 0.7874016 0 -38.58268 0 0 -38.58268 0.7874016 0 0 0</float_array>
-                    <technique_common>
-                        <accessor count="16" source="#ID13" stride="3">
-                            <param name="X" type="float" />
-                            <param name="Y" type="float" />
-                            <param name="Z" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <source id="ID10">
-                    <float_array id="ID14" count="48">1 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1 -0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
-                    <technique_common>
-                        <accessor count="16" source="#ID14" stride="3">
-                            <param name="X" type="float" />
-                            <param name="Y" type="float" />
-                            <param name="Z" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <source id="ID12">
-                    <float_array id="ID15" count="20">0 0 -0.8038058 1.574803 -0.8038058 0 0 1.574803 -0.492126 0 -0.492126 1.574803 0.492126 1.574803 0.492126 0 0.8038058 0 0.8038058 1.574803</float_array>
-                    <technique_common>
-                        <accessor count="10" source="#ID15" stride="2">
-                            <param name="S" type="float" />
-                            <param name="T" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <vertices id="ID11">
-                    <input semantic="POSITION" source="#ID9" />
-                    <input semantic="NORMAL" source="#ID10" />
-                </vertices>
-                <triangles count="8" material="Material2">
-                    <input offset="0" semantic="VERTEX" source="#ID11" />
-                    <input offset="1" semantic="TEXCOORD" source="#ID12" />
-                    <p>0 0 1 1 2 2 1 1 0 0 3 3 4 3 5 4 6 0 5 4 4 3 7 5 8 6 9 0 10 7 9 0 8 6 11 3 12 3 13 8 14 9 13 8 12 3 15 0</p>
-                </triangles>
-            </mesh>
-        </geometry>
-        <geometry id="ID16">
-            <mesh>
-                <source id="ID22">
-                    <float_array id="ID26" count="12">23.62205 0 0 0 -38.58268 0 0 0 0 23.62205 -38.58268 0</float_array>
-                    <technique_common>
-                        <accessor count="4" source="#ID26" stride="3">
-                            <param name="X" type="float" />
-                            <param name="Y" type="float" />
-                            <param name="Z" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <source id="ID23">
-                    <float_array id="ID27" count="12">0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
-                    <technique_common>
-                        <accessor count="4" source="#ID27" stride="3">
-                            <param name="X" type="float" />
-                            <param name="Y" type="float" />
-                            <param name="Z" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <source id="ID25">
-                    <float_array id="ID28" count="8">-0.492126 0 0 -0.4019029 0 0 -0.492126 -0.4019029</float_array>
-                    <technique_common>
-                        <accessor count="4" source="#ID28" stride="2">
-                            <param name="S" type="float" />
-                            <param name="T" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <vertices id="ID24">
-                    <input semantic="POSITION" source="#ID22" />
-                    <input semantic="NORMAL" source="#ID23" />
-                </vertices>
-                <triangles count="2" material="Material2">
-                    <input offset="0" semantic="VERTEX" source="#ID24" />
-                    <input offset="1" semantic="TEXCOORD" source="#ID25" />
-                    <p>0 0 1 1 2 2 1 1 0 0 3 3</p>
-                </triangles>
-            </mesh>
-        </geometry>
-        <geometry id="ID29">
-            <mesh>
-                <source id="ID30">
-                    <float_array id="ID34" count="12">23.62205 -38.58268 0.7874016 0 0 0.7874016 0 -38.58268 0.7874016 23.62205 0 0.7874016</float_array>
-                    <technique_common>
-                        <accessor count="4" source="#ID34" stride="3">
-                            <param name="X" type="float" />
-                            <param name="Y" type="float" />
-                            <param name="Z" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <source id="ID31">
-                    <float_array id="ID35" count="12">-0 -0 1 -0 -0 1 -0 -0 1 -0 -0 1</float_array>
-                    <technique_common>
-                        <accessor count="4" source="#ID35" stride="3">
-                            <param name="X" type="float" />
-                            <param name="Y" type="float" />
-                            <param name="Z" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <source id="ID33">
-                    <float_array id="ID36" count="8">0.492126 -0.4019029 0 0 0 -0.4019029 0.492126 0</float_array>
-                    <technique_common>
-                        <accessor count="4" source="#ID36" stride="2">
-                            <param name="S" type="float" />
-                            <param name="T" type="float" />
-                        </accessor>
-                    </technique_common>
-                </source>
-                <vertices id="ID32">
-                    <input semantic="POSITION" source="#ID30" />
-                    <input semantic="NORMAL" source="#ID31" />
-                </vertices>
-                <triangles count="2" material="Material2">
-                    <input offset="0" semantic="VERTEX" source="#ID32" />
-                    <input offset="1" semantic="TEXCOORD" source="#ID33" />
-                    <p>0 0 1 1 2 2 1 1 0 0 3 3</p>
-                </triangles>
-            </mesh>
-        </geometry>
-    </library_geometries>
-
-    <!-- pick id's -->
-    <library_materials>
-        <material id="ID4" name="balic_berch3">
-            <instance_effect url="#ID5" />
-        </material>
-        <material id="ID17" name="balic_berch2">
-            <instance_effect url="#ID18" />
-        </material>
-    </library_materials>
-
-    <library_images>
-        <image id="ID6">
-            <init_from>../textures/balic_berch3.jpg</init_from>
-        </image>
-        <image id="ID19">
-            <init_from>../textures/balic_berch2.jpg</init_from>
-        </image>
-    </library_images>
-    <scene>
-        <instance_visual_scene url="#ID2" />
-    </scene>
+  <library_images/>
+  <library_materials>
+    <material id="balic_berch2-material" name="balic_berch2">
+      <instance_effect url="#balic_berch2-effect"/>
+    </material>
+    <material id="balic_berch3-material" name="balic_berch3">
+      <instance_effect url="#balic_berch3-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="ID29-mesh" name="ID29">
+      <mesh>
+        <source id="ID29-mesh-positions">
+          <float_array id="ID29-mesh-positions-array" count="12">23.62205 -38.58268 0.7874016 0 0 0.7874016 0 -38.58268 0.7874016 23.62205 0 0.7874016</float_array>
+          <technique_common>
+            <accessor source="#ID29-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID29-mesh-normals">
+          <float_array id="ID29-mesh-normals-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#ID29-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID29-mesh-map-0">
+          <float_array id="ID29-mesh-map-0-array" count="12">0.492126 -0.4019029 0 0 0 -0.4019029 0 0 0.492126 -0.4019029 0.492126 0</float_array>
+          <technique_common>
+            <accessor source="#ID29-mesh-map-0-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID29-mesh-vertices">
+          <input semantic="POSITION" source="#ID29-mesh-positions"/>
+        </vertices>
+        <triangles material="balic_berch2-material" count="2">
+          <input semantic="VERTEX" source="#ID29-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID29-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID29-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 2 0 2 1 0 3 0 0 4 3 0 5</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="ID16-mesh" name="ID16">
+      <mesh>
+        <source id="ID16-mesh-positions">
+          <float_array id="ID16-mesh-positions-array" count="12">23.62205 0 0 0 -38.58268 0 0 0 0 23.62205 -38.58268 0</float_array>
+          <technique_common>
+            <accessor source="#ID16-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID16-mesh-normals">
+          <float_array id="ID16-mesh-normals-array" count="3">0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#ID16-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID16-mesh-map-0">
+          <float_array id="ID16-mesh-map-0-array" count="12">-0.492126 0 0 -0.4019029 0 0 0 -0.4019029 -0.492126 0 -0.492126 -0.4019029</float_array>
+          <technique_common>
+            <accessor source="#ID16-mesh-map-0-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID16-mesh-vertices">
+          <input semantic="POSITION" source="#ID16-mesh-positions"/>
+        </vertices>
+        <triangles material="balic_berch2-material" count="2">
+          <input semantic="VERTEX" source="#ID16-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID16-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID16-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 2 0 2 1 0 3 0 0 4 3 0 5</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="ID3-mesh" name="ID3">
+      <mesh>
+        <source id="ID3-mesh-positions">
+          <float_array id="ID3-mesh-positions-array" count="48">23.62205 0 0 23.62205 -38.58268 0.7874016 23.62205 -38.58268 0 23.62205 0 0.7874016 0 0 0.7874016 23.62205 0 0 0 0 0 23.62205 0 0.7874016 23.62205 -38.58268 0.7874016 0 -38.58268 0 23.62205 -38.58268 0 0 -38.58268 0.7874016 0 0 0.7874016 0 -38.58268 0 0 -38.58268 0.7874016 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#ID3-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3-mesh-normals">
+          <float_array id="ID3-mesh-normals-array" count="12">1 0 0 0 1 0 0 -1 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ID3-mesh-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3-mesh-map-0">
+          <float_array id="ID3-mesh-map-0-array" count="48">0 0 -0.8038058 1.574803 -0.8038058 0 -0.8038058 1.574803 0 0 0 1.574803 0 1.574803 -0.492126 0 0 0 -0.492126 0 0 1.574803 -0.492126 1.574803 0.492126 1.574803 0 0 0.492126 0 0 0 0.492126 1.574803 0 1.574803 0 1.574803 0.8038058 0 0.8038058 1.574803 0.8038058 0 0 1.574803 0 0</float_array>
+          <technique_common>
+            <accessor source="#ID3-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID3-mesh-vertices">
+          <input semantic="POSITION" source="#ID3-mesh-positions"/>
+        </vertices>
+        <triangles material="balic_berch3-material" count="8">
+          <input semantic="VERTEX" source="#ID3-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID3-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID3-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 0 1 2 0 2 1 0 3 0 0 4 3 0 5 4 1 6 5 1 7 6 1 8 5 1 9 4 1 10 7 1 11 8 2 12 9 2 13 10 2 14 9 2 15 8 2 16 11 2 17 12 3 18 13 3 19 14 3 20 13 3 21 12 3 22 15 3 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="SketchUp_002" name="SketchUp.002" type="NODE">
+        <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
+        <instance_geometry url="#ID29-mesh" name="SketchUp.002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="balic_berch2-material" target="#balic_berch2-material">
+                <bind_vertex_input semantic="ID33" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="SketchUp_001" name="SketchUp.001" type="NODE">
+        <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
+        <instance_geometry url="#ID16-mesh" name="SketchUp.001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="balic_berch2-material" target="#balic_berch2-material">
+                <bind_vertex_input semantic="ID25" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="SketchUp" name="SketchUp" type="NODE">
+        <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
+        <instance_geometry url="#ID3-mesh" name="SketchUp">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="balic_berch3-material" target="#balic_berch3-material">
+                <bind_vertex_input semantic="ID12" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <node id="skp_camera_Last_Saved_SketchUp_View" name="skp_camera_Last_Saved_SketchUp_View" type="NODE">
+          <matrix sid="transform">0.7498629 -0.2010887 0.6302928 41.3988 0.6615933 0.2279178 -0.7143864 -64.57957 2.95335e-8 0.9526894 0.303946 15.20843 0 0 0 1</matrix>
+          <instance_camera url="#skp_camera_Last_Saved_SketchUp_View-camera"/>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
 </COLLADA>
