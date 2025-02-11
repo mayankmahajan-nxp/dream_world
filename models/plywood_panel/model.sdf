@@ -21,7 +21,7 @@
                     <mesh>
                         <scale>1.0 1.0 1.0</scale>
                         <!-- measures 0.98 x 0.6 x 0.02 mt, origin is at one corner of the panel -->
-                        <uri>/home/mayank/cognipilot/cranium/src/dream_world/models/plywood_panel/meshes/plywood.dae</uri>
+                        <uri>model://plywood_panel/meshes/plywood.dae</uri>
                     </mesh>
                 </geometry>
             </visual>

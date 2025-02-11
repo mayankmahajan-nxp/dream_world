@@ -322,38 +322,6 @@
                     </script>
                 </material>
             </visual>
-            <visual name="BOXSET_visual">
-                <geometry>
-                    <mesh>
-                        <scale>0.6 0.6 0.6</scale>
-                        <uri>meshes/Depot.dae</uri>
-                        <submesh>
-                            <name>BOXSET</name>
-                            <center>false</center>
-                        </submesh>
-                    </mesh>
-                </geometry>
-                <material>
-                    <diffuse>1.0 1.0 1.0</diffuse>
-                    <specular>1.0 1.0 1.0</specular>
-                    <pbr>
-                        <metal>
-                            <albedo_map>materials/textures/BOXSET_Albedo.png</albedo_map>
-                            <normal_map>materials/textures/BOXSET_Normal.png</normal_map>
-                            <metalness_map>materials/textures/BOXSET_Metalness.png</metalness_map>
-                            <roughness_map>materials/textures/BOXSET_Roughness.png</roughness_map>
-                            <emissive_map>materials/textures/BOXSET_Emissive.png</emissive_map>
-                            <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
-                        </metal>
-                    </pbr>
-                    <!-- fallback to script if no PBR support-->
-                    <script>
-                        <uri>materials/scripts/</uri>
-                        <uri>materials/textures/</uri>
-                        <name>UrbanTile/BOXSET_Diffuse</name>
-                    </script>
-                </material>
-            </visual>
             <visual name="FLOOR_visual">
                 <geometry>
                     <mesh>
@@ -406,7 +374,7 @@
                     </pbr>
                 </material>
             </visual>
-            <visual name="crates">
+            <!-- <visual name="crates">
                 <geometry>
                     <mesh>
                         <scale>0.6 0.6 0.6</scale>
@@ -424,7 +392,7 @@
                         </metal>
                     </pbr>
                 </material>
-            </visual>
+            </visual> -->
         </link>
         <link name="Fan1">
             <pose>-5.0154 -0.2952 6.12 0 0 0</pose>
