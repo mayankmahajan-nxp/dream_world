@@ -1690,5 +1690,32 @@
       <allow_auto_disable>1</allow_auto_disable>
       <pose frame=''>-1.10426 1.73952 0.449513 -0.005227 0.004584 -0.000705</pose>
     </model>
+
+    <include>
+      <uri>/home/mayank/cognipilot/cranium/src/dream_world/models/Construction_Cone_mini</uri>
+      <name>cone_7</name>
+      <pose>-11.656000 10.228900 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>/home/mayank/cognipilot/cranium/src/dream_world/models/hatchback_red</uri>
+      <name>car_7</name>
+      <pose>3.127710 4.690750 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>/home/mayank/cognipilot/cranium/src/dream_world/models/car_blue</uri>
+      <name>car_8</name>
+      <pose>2.633770 7.681520 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>/home/mayank/cognipilot/cranium/src/dream_world/models/oak_tree_mini</uri>
+      <name>tree_5</name>
+      <pose>-0.764244 7.843430 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>/home/mayank/cognipilot/cranium/src/dream_world/models/Coke</uri>
+      <name>can_15</name>
+      <pose>6.349080 -8.039790 0 0 0 0</pose>
+    </include>
+
   </world>
 </sdf>

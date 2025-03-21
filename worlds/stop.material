@@ -1,0 +1,13 @@
+material Box/MyTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture stop.png
+      }
+    }
+  }
+}
