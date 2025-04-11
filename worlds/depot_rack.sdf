@@ -173,7 +173,7 @@
         </joint>
     </model>
 
-    <model name="rack_plant">
+    <model name="rack_potted_qr">
         <static>false</static>
         <link name="main">
             <collision name="collision">
@@ -189,7 +189,7 @@
                 <pose>-3 3 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>small_rack_potted.dae</uri>
+                        <uri>small_rack_potted_qr.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
