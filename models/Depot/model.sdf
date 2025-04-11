@@ -322,7 +322,7 @@
                     </script>
                 </material>
             </visual>
-            <visual name="BOXSET_visual">
+            <!-- <visual name="BOXSET_visual">
                 <geometry>
                     <mesh>
                         <scale>0.6 0.6 0.6</scale>
@@ -346,14 +346,13 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
                         <name>UrbanTile/BOXSET_Diffuse</name>
                     </script>
                 </material>
-            </visual>
+            </visual> -->
             <visual name="FLOOR_visual">
                 <geometry>
                     <mesh>
@@ -406,7 +405,7 @@
                     </pbr>
                 </material>
             </visual>
-            <visual name="crates">
+            <!-- <visual name="crates">
                 <geometry>
                     <mesh>
                         <scale>0.6 0.6 0.6</scale>
@@ -424,7 +423,7 @@
                         </metal>
                     </pbr>
                 </material>
-            </visual>
+            </visual> -->
         </link>
         <link name="Fan1">
             <pose>-5.0154 -0.2952 6.12 0 0 0</pose>
