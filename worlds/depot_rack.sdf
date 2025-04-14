@@ -101,10 +101,10 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-3 -3 0 0 0 0</pose>
+                <pose>-3 -3 0 0 0 1.5707963267</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_female.dae</uri>
+                        <uri>three_rack_female.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -132,7 +132,7 @@
                 <pose>3 3 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_clock.dae</uri>
+                        <uri>three_rack_clock.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -160,7 +160,7 @@
                 <pose>3 -3 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_teddy.dae</uri>
+                        <uri>three_rack_teddy.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -188,7 +188,7 @@
                 <pose>-3 3 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_potted_qr.dae</uri>
+                        <uri>three_rack_potted.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -213,10 +213,10 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-12 0 0 0 0 0</pose>
+                <pose>-12 0 0 0 0 1.5707963267</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_stop.dae</uri>
+                        <uri>three_rack_stop.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
