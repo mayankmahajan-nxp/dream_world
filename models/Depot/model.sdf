@@ -291,7 +291,7 @@
                     </script>
                 </material>
             </visual>
-            <visual name="STAIRS_visual">
+            <!-- <visual name="STAIRS_visual">
                 <geometry>
                     <mesh>
                         <scale>0.6 0.6 0.6</scale>
@@ -314,14 +314,13 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
                         <name>UrbanTile/STAIRS_Diffuse</name>
                     </script>
                 </material>
-            </visual>
+            </visual> -->
             <!-- <visual name="BOXSET_visual">
                 <geometry>
                     <mesh>
