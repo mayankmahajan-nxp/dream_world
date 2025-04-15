@@ -3,6 +3,100 @@
     <model name="Depot">
         <static>false</static>
         <link name="main">
+            <!--
+            <light type="point" name="fan_light">
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>50</range>
+                    <linear>0</linear>
+                    <constant>0</constant>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+            -->
+
+            <light name="light_1" type="point">
+                <pose>-4.5 -4.5 2 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+            <light name="light_2" type="point">
+                <pose>4.5 -4.5 2 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+            <light name="light_3" type="point">
+                <pose>-4.5 4.5 2 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+            <light name="light_4" type="point">
+                <pose>4.5 4.5 2 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+            <light name="light_5" type="point">
+                <pose>-15 0 2 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+            <light name="light_6" type="point">
+                <pose>13 0 2 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+
             <collision name="collision">
                 <pose>0 0 0 0 0 0</pose>
                 <geometry>
@@ -457,7 +551,7 @@
                 <diffuse>1 1 1 1</diffuse>
                 <specular>0.3 0.3 0.3 1</specular>
                 <attenuation>
-                    <range>50</range>
+                    <range>20</range>
                     <linear>0</linear>
                     <constant>0</constant>
                     <quadratic>0</quadratic>
@@ -499,7 +593,7 @@
                 <diffuse>1 1 1 1</diffuse>
                 <specular>0.3 0.3 0.3 1</specular>
                 <attenuation>
-                    <range>50</range>
+                    <range>20</range>
                     <linear>0</linear>
                     <constant>0</constant>
                     <quadratic>0</quadratic>
