@@ -104,7 +104,7 @@
                 <pose>0 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <scale>2 2 2</scale>
+                        <scale>0.75 0.75 0.75</scale>
                         <uri>street.dae</uri>
                     </mesh>
                 </geometry>
@@ -117,7 +117,7 @@
         </joint>
     </model>
 
-    <model name="fire">
+    <model name="fire_1">
         <static>false</static>
         <link name="main">
             <collision name="collision">
@@ -131,6 +131,35 @@
             </collision>
             <visual name="objects">
                 <pose>-6 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <scale>3 3 3</scale>
+                        <uri>fire.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+
+        <joint name="world_joint" type="fixed">
+            <parent>world</parent>
+            <child>main</child>
+        </joint>
+    </model>
+
+    <model name="fire_2">
+        <static>false</static>
+        <link name="main">
+            <collision name="collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <plane>
+                        <normal>0 0 1</normal>
+                        <size>100 100</size>
+                    </plane>
+                </geometry>
+            </collision>
+            <visual name="objects">
+                <pose>6 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>3 3 3</scale>
@@ -271,7 +300,7 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-12 0 0 0 0 0</pose>
+                <pose>-11 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>rack_three_diverse_5.dae</uri>
@@ -299,7 +328,7 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>10 0 0 0 0 0</pose>
+                <pose>11 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>three_rack_clock.dae</uri>
