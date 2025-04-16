@@ -315,7 +315,7 @@
         </joint>
     </model>
 
-    <model name="rack_three_common">
+    <model name="rack_three_diverse_6">
         <static>false</static>
         <link name="main">
             <collision name="collision">
@@ -331,7 +331,7 @@
                 <pose>11 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>three_rack_clock.dae</uri>
+                        <uri>rack_three_diverse_6.dae</uri>
                     </mesh>
                 </geometry>
             </visual>

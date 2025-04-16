@@ -57,14 +57,14 @@
     </effect>
     <effect id="Material_013-effect">
       <profile_COMMON>
-        <newparam sid="qrcode_png-surface">
+        <newparam sid="qrcode_2_png-surface">
           <surface type="2D">
-            <init_from>qrcode_png</init_from>
+            <init_from>qrcode_2_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="qrcode_png-sampler">
+        <newparam sid="qrcode_2_png-sampler">
           <sampler2D>
-            <source>qrcode_png-surface</source>
+            <source>qrcode_2_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -73,7 +73,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="qrcode_png-sampler" texcoord="UVMap"/>
+              <texture texture="qrcode_2_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.5</float>
@@ -194,8 +194,8 @@
     <image id="female_jpg" name="female_jpg">
       <init_from>female.jpg</init_from>
     </image>
-    <image id="qrcode_png" name="qrcode_png">
-      <init_from>qrcode.png</init_from>
+    <image id="qrcode_2_png" name="qrcode_2_png">
+      <init_from>qrcode_2.png</init_from>
     </image>
     <image id="teddy_webp" name="teddy_webp">
       <init_from>teddy.webp</init_from>
