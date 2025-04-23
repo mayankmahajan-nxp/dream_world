@@ -232,6 +232,60 @@
                 <intensity>1.0</intensity>
             </light>
 
+            <light name="light_15" type="point">
+                <pose>9.5 -1.0 1 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>2.5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+            <light name="light_16" type="point">
+                <pose>9.5 1.0 1 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>2.5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+
+            <light name="light_17" type="point">
+                <pose>-9.5 -1.0 1 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>2.5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+            <light name="light_18" type="point">
+                <pose>-9.5 1.0 1 0 0 0</pose>
+                <diffuse>1 1 1 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+                <attenuation>
+                    <range>2.5</range>
+                    <constant>0</constant>
+                    <linear>0</linear>
+                    <quadratic>0</quadratic>
+                </attenuation>
+                <cast_shadows>false</cast_shadows>
+                <intensity>1.0</intensity>
+            </light>
+
             <collision name="collision">
                 <pose>0 0 0 0 0 0</pose>
                 <geometry>
