@@ -30,14 +30,14 @@
     </effect>
     <effect id="Material_013-effect">
       <profile_COMMON>
-        <newparam sid="qrcode_6_png-surface">
+        <newparam sid="qrcode_12_png-surface">
           <surface type="2D">
-            <init_from>qrcode_6_png</init_from>
+            <init_from>qrcode_12_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="qrcode_6_png-sampler">
+        <newparam sid="qrcode_12_png-sampler">
           <sampler2D>
-            <source>qrcode_6_png-surface</source>
+            <source>qrcode_12_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -46,7 +46,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="qrcode_6_png-sampler" texcoord="UVMap"/>
+              <texture texture="qrcode_12_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.5</float>
@@ -191,8 +191,8 @@
     <image id="potted_jpg" name="potted_jpg">
       <init_from>potted.jpg</init_from>
     </image>
-    <image id="qrcode_6_png" name="qrcode_6_png">
-      <init_from>qrcode_6.png</init_from>
+    <image id="qrcode_12_png" name="qrcode_12_png">
+      <init_from>qrcode_12.png</init_from>
     </image>
     <image id="stop_jpg" name="stop_jpg">
       <init_from>stop.jpg</init_from>

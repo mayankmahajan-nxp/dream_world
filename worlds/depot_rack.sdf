@@ -374,7 +374,7 @@
         </joint> -->
     </model>
 
-    <model name="rack_three_diverse_mid_1">
+    <model name="rack_three_diverse_7">
         <static>true</static>
         <link name="main">
             <!-- <collision name="collision">
@@ -390,7 +390,7 @@
                 <pose>0 -3.0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_3.dae</uri>
+                        <uri>rack_three_diverse_7.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -402,7 +402,7 @@
         </joint> -->
     </model>
 
-    <model name="rack_three_diverse_mid_2">
+    <model name="rack_three_diverse_8">
         <static>true</static>
         <link name="main">
             <!-- <collision name="collision">
@@ -418,7 +418,7 @@
                 <pose>0 3.0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_4.dae</uri>
+                        <uri>rack_three_diverse_8.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -458,7 +458,7 @@
         </joint> -->
     </model>
 
-    <model name="rack_multiple_rows_6">
+    <model name="rack_three_diverse_6">
         <static>true</static>
         <link name="main">
             <!-- <collision name="collision">
@@ -474,7 +474,7 @@
                 <pose>11.5 3.5 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_multiple_rows_6.dae</uri>
+                        <uri>rack_three_diverse_6.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -486,7 +486,7 @@
         </joint> -->
     </model>
 
-    <model name="rack_multiple_rows_7">
+    <model name="rack_three_diverse_9">
         <static>true</static>
         <link name="main">
             <!-- <collision name="collision">
@@ -502,7 +502,7 @@
                 <pose>-11.5 -3.5 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_5.dae</uri>
+                        <uri>rack_three_diverse_9.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -514,7 +514,7 @@
         </joint> -->
     </model>
 
-    <model name="rack_multiple_rows_8">
+    <model name="rack_three_diverse_10">
         <static>true</static>
         <link name="main">
             <!-- <collision name="collision">
@@ -530,7 +530,7 @@
                 <pose>11.5 -3.5 0 0 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_multiple_rows_6.dae</uri>
+                        <uri>rack_three_diverse_10.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -542,7 +542,7 @@
         </joint> -->
     </model>
 
-    <model name="rack_multiple_rows_9">
+    <model name="rack_three_diverse_11">
         <static>true</static>
         <link name="main">
             <!-- <collision name="collision">
@@ -558,7 +558,7 @@
                 <pose>-9.5 0 0 0 0 1.57079632679</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_5.dae</uri>
+                        <uri>rack_three_diverse_11.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -570,7 +570,7 @@
         </joint> -->
     </model>
 
-    <model name="rack_multiple_rows_10">
+    <model name="rack_three_diverse_12">
         <static>true</static>
         <link name="main">
             <!-- <collision name="collision">
@@ -586,7 +586,7 @@
                 <pose>9.5 0 0 0 0 1.57079632679</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_multiple_rows_6.dae</uri>
+                        <uri>rack_three_diverse_12.dae</uri>
                     </mesh>
                 </geometry>
             </visual>

@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 4.4.0 commit date:2025-03-17, commit time:17:00, hash:05377985c527</authoring_tool>
     </contributor>
-    <created>2025-04-14T11:52:52</created>
-    <modified>2025-04-14T11:52:52</modified>
+    <created>2025-04-15T10:13:23</created>
+    <modified>2025-04-15T10:13:23</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
     <effect id="Material_009-effect">
       <profile_COMMON>
-        <newparam sid="teddy_webp-surface">
+        <newparam sid="stop_jpg-surface">
           <surface type="2D">
-            <init_from>teddy_webp</init_from>
+            <init_from>stop_jpg</init_from>
           </surface>
         </newparam>
-        <newparam sid="teddy_webp-sampler">
+        <newparam sid="stop_jpg-sampler">
           <sampler2D>
-            <source>teddy_webp-surface</source>
+            <source>stop_jpg-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="teddy_webp-sampler" texcoord="UVMap"/>
+              <texture texture="stop_jpg-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.5</float>
@@ -57,14 +57,14 @@
     </effect>
     <effect id="Material_013-effect">
       <profile_COMMON>
-        <newparam sid="qrcode_png-surface">
+        <newparam sid="qrcode_8_png-surface">
           <surface type="2D">
-            <init_from>qrcode_png</init_from>
+            <init_from>qrcode_8_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="qrcode_png-sampler">
+        <newparam sid="qrcode_8_png-sampler">
           <sampler2D>
-            <source>qrcode_png-surface</source>
+            <source>qrcode_8_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -73,7 +73,61 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="qrcode_png-sampler" texcoord="UVMap"/>
+              <texture texture="qrcode_8_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_001-effect">
+      <profile_COMMON>
+        <newparam sid="stop_jpg-surface">
+          <surface type="2D">
+            <init_from>stop_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="stop_jpg-sampler">
+          <sampler2D>
+            <source>stop_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="stop_jpg-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_005-effect">
+      <profile_COMMON>
+        <newparam sid="potted_jpg-surface">
+          <surface type="2D">
+            <init_from>potted_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="potted_jpg-sampler">
+          <sampler2D>
+            <source>potted_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="potted_jpg-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.5</float>
@@ -134,11 +188,14 @@
     <image id="wood_png" name="wood_png">
       <init_from>wood.png</init_from>
     </image>
-    <image id="qrcode_png" name="qrcode_png">
-      <init_from>qrcode.png</init_from>
+    <image id="potted_jpg" name="potted_jpg">
+      <init_from>potted.jpg</init_from>
     </image>
-    <image id="teddy_webp" name="teddy_webp">
-      <init_from>teddy.webp</init_from>
+    <image id="qrcode_8_png" name="qrcode_8_png">
+      <init_from>qrcode_8.png</init_from>
+    </image>
+    <image id="stop_jpg" name="stop_jpg">
+      <init_from>stop.jpg</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -150,6 +207,12 @@
     </material>
     <material id="Material_013-material" name="Material.013">
       <instance_effect url="#Material_013-effect"/>
+    </material>
+    <material id="Material_001-material" name="Material.001">
+      <instance_effect url="#Material_001-effect"/>
+    </material>
+    <material id="Material_005-material" name="Material.005">
+      <instance_effect url="#Material_005-effect"/>
     </material>
     <material id="Material_002-material" name="Material.002">
       <instance_effect url="#Material_002-effect"/>
@@ -241,12 +304,6 @@
         <vertices id="Cube_003-mesh-vertices">
           <input semantic="POSITION" source="#Cube_003-mesh-positions"/>
         </vertices>
-        <triangles material="Material_009-material" count="4">
-          <input semantic="VERTEX" source="#Cube_003-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#Cube_003-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#Cube_003-mesh-map-0" offset="2" set="0"/>
-          <p>6 2 6 5 2 7 7 2 8 0 4 12 3 4 13 1 4 14 6 8 24 4 8 25 5 8 26 0 10 30 2 10 31 3 10 32</p>
-        </triangles>
         <triangles material="Material_012-material" count="6">
           <input semantic="VERTEX" source="#Cube_003-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_003-mesh-normals" offset="1"/>
@@ -258,6 +315,12 @@
           <input semantic="NORMAL" source="#Cube_003-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cube_003-mesh-map-0" offset="2" set="0"/>
           <p>2 1 3 7 1 4 3 1 5 2 7 21 6 7 22 7 7 23</p>
+        </triangles>
+        <triangles material="Material_001-material" count="4">
+          <input semantic="VERTEX" source="#Cube_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_003-mesh-map-0" offset="2" set="0"/>
+          <p>6 2 6 5 2 7 7 2 8 0 4 12 3 4 13 1 4 14 6 8 24 4 8 25 5 8 26 0 10 30 2 10 31 3 10 32</p>
         </triangles>
       </mesh>
     </geometry>
@@ -295,12 +358,6 @@
         <vertices id="Cube_004-mesh-vertices">
           <input semantic="POSITION" source="#Cube_004-mesh-positions"/>
         </vertices>
-        <triangles material="Material_009-material" count="4">
-          <input semantic="VERTEX" source="#Cube_004-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#Cube_004-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#Cube_004-mesh-map-0" offset="2" set="0"/>
-          <p>6 2 6 5 2 7 7 2 8 0 4 12 3 4 13 1 4 14 6 8 24 4 8 25 5 8 26 0 10 30 2 10 31 3 10 32</p>
-        </triangles>
         <triangles material="Material_012-material" count="6">
           <input semantic="VERTEX" source="#Cube_004-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_004-mesh-normals" offset="1"/>
@@ -312,6 +369,12 @@
           <input semantic="NORMAL" source="#Cube_004-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cube_004-mesh-map-0" offset="2" set="0"/>
           <p>4 5 15 1 5 16 5 5 17 4 11 33 0 11 34 1 11 35</p>
+        </triangles>
+        <triangles material="Material_005-material" count="4">
+          <input semantic="VERTEX" source="#Cube_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_004-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_004-mesh-map-0" offset="2" set="0"/>
+          <p>6 2 6 5 2 7 7 2 8 0 4 12 3 4 13 1 4 14 6 8 24 4 8 25 5 8 26 0 10 30 2 10 31 3 10 32</p>
         </triangles>
       </mesh>
     </geometry>
@@ -509,13 +572,13 @@
         <instance_geometry url="#Cube_003-mesh" name="Cube.002">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material_009-material" target="#Material_009-material">
-                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
-              </instance_material>
               <instance_material symbol="Material_012-material" target="#Material_012-material">
                 <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
               <instance_material symbol="Material_013-material" target="#Material_013-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_001-material" target="#Material_001-material">
                 <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
             </technique_common>
@@ -527,13 +590,13 @@
         <instance_geometry url="#Cube_004-mesh" name="Cube.001">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material_009-material" target="#Material_009-material">
-                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
-              </instance_material>
               <instance_material symbol="Material_012-material" target="#Material_012-material">
                 <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
               <instance_material symbol="Material_013-material" target="#Material_013-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_005-material" target="#Material_005-material">
                 <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
             </technique_common>
