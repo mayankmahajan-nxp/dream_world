@@ -262,6 +262,20 @@
         </joint> -->
     </model>
 
+    <model name="curtain_1">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>-4 -4 0 0 0 0.78539816339</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <model name="rack_three_diverse_1">
         <static>true</static>
         <link name="main">
@@ -288,6 +302,20 @@
             <parent>world</parent>
             <child>main</child>
         </joint> -->
+    </model>
+
+    <model name="curtain_2">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>4 4 0 0 0 0.78539816339</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
     </model>
 
     <model name="rack_three_diverse_2">
@@ -318,6 +346,20 @@
         </joint> -->
     </model>
 
+    <model name="curtain_3">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>4 -4 0 0 0 -0.78539816339</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <model name="rack_three_diverse_3">
         <static>true</static>
         <link name="main">
@@ -344,6 +386,20 @@
             <parent>world</parent>
             <child>main</child>
         </joint> -->
+    </model>
+
+    <model name="curtain_4">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>-4 4 0 0 0 -0.78539816339</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
     </model>
 
     <model name="rack_three_diverse_4">
@@ -374,6 +430,20 @@
         </joint> -->
     </model>
 
+    <model name="curtain_7">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>0 -3.0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <model name="rack_three_diverse_7">
         <static>true</static>
         <link name="main">
@@ -400,6 +470,20 @@
             <parent>world</parent>
             <child>main</child>
         </joint> -->
+    </model>
+
+    <model name="curtain_8">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>0 3.0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
     </model>
 
     <model name="rack_three_diverse_8">
@@ -430,6 +514,20 @@
         </joint> -->
     </model>
 
+    <model name="curtain_5">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>-12.5 3.5 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <model name="rack_three_diverse_5">
         <static>true</static>
         <link name="main">
@@ -456,6 +554,20 @@
             <parent>world</parent>
             <child>main</child>
         </joint> -->
+    </model>
+
+    <model name="curtain_6">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>12.5 3.5 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
     </model>
 
     <model name="rack_three_diverse_6">
@@ -486,6 +598,20 @@
         </joint> -->
     </model>
 
+    <model name="curtain_9">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>-12.5 -3.5 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <model name="rack_three_diverse_9">
         <static>true</static>
         <link name="main">
@@ -512,6 +638,20 @@
             <parent>world</parent>
             <child>main</child>
         </joint> -->
+    </model>
+
+    <model name="curtain_10">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>12.5 -3.5 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
     </model>
 
     <model name="rack_three_diverse_10">
