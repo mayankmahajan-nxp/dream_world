@@ -125,7 +125,7 @@
                 <intensity>1.0</intensity>
             </light>
             <light name="light_7" type="point">
-                <pose>-11.5 -5 2 0 0 0</pose>
+                <pose>-12.5 -5 2 0 0 0</pose>
                 <diffuse>1 1 1 1</diffuse>
                 <specular>0.3 0.3 0.3 1</specular>
                 <attenuation>
@@ -138,7 +138,7 @@
                 <intensity>1.0</intensity>
             </light>
             <light name="light_8" type="point">
-                <pose>-11.5 5 2 0 0 0</pose>
+                <pose>-12.5 5 2 0 0 0</pose>
                 <diffuse>1 1 1 1</diffuse>
                 <specular>0.3 0.3 0.3 1</specular>
                 <attenuation>
@@ -152,7 +152,7 @@
             </light>
 
             <light name="light_9" type="point">
-                <pose>11.5 -5 2 0 0 0</pose>
+                <pose>12.5 -5 2 0 0 0</pose>
                 <diffuse>1 1 1 1</diffuse>
                 <specular>0.3 0.3 0.3 1</specular>
                 <attenuation>
@@ -165,7 +165,7 @@
                 <intensity>1.0</intensity>
             </light>
             <light name="light_10" type="point">
-                <pose>11.5 5 2 0 0 0</pose>
+                <pose>12.5 5 2 0 0 0</pose>
                 <diffuse>1 1 1 1</diffuse>
                 <specular>0.3 0.3 0.3 1</specular>
                 <attenuation>
@@ -298,7 +298,7 @@
             <visual name="ROOF_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>ROOF</name>
@@ -330,7 +330,7 @@
             <visual name="WALLS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>WALLS</name>
@@ -361,7 +361,7 @@
             <visual name="PILLERS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>PILLERS</name>
@@ -423,7 +423,7 @@
             <visual name="WINDOW_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>WINDOW</name>
@@ -452,7 +452,7 @@
             <visual name="INTERCOM_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>INTERCOM</name>
@@ -484,7 +484,7 @@
             <visual name="FireAlarm_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FireAlarm</name>
@@ -515,7 +515,7 @@
             <visual name="FireAlarmPole_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FireAlarmPole</name>
@@ -546,7 +546,7 @@
             <visual name="Pipes_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>Pipes</name>
@@ -577,7 +577,7 @@
             <!-- <visual name="STAIRS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>STAIRS</name>
@@ -607,7 +607,7 @@
             <!-- <visual name="BOXSET_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>BOXSET</name>
@@ -638,7 +638,7 @@
             <visual name="FLOOR_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FLOOR</name>
@@ -669,7 +669,7 @@
             <visual name="FanBack_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FanBack</name>
@@ -690,7 +690,7 @@
             <!-- <visual name="crates">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Crates.dae</uri>
                     </mesh>
                 </geometry>

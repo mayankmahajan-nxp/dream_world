@@ -443,7 +443,7 @@
                 </geometry>
             </collision> -->
             <visual name="objects">
-                <pose>-11.5 3.5 0 0 0 0</pose>
+                <pose>-12.5 3.5 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>rack_three_diverse_5.dae</uri>
@@ -471,7 +471,7 @@
                 </geometry>
             </collision> -->
             <visual name="objects">
-                <pose>11.5 3.5 0 0 0 0</pose>
+                <pose>12.5 3.5 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>rack_three_diverse_6.dae</uri>
@@ -499,7 +499,7 @@
                 </geometry>
             </collision> -->
             <visual name="objects">
-                <pose>-11.5 -3.5 0 0 0 0</pose>
+                <pose>-12.5 -3.5 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>rack_three_diverse_9.dae</uri>
@@ -527,7 +527,7 @@
                 </geometry>
             </collision> -->
             <visual name="objects">
-                <pose>11.5 -3.5 0 0 0 0</pose>
+                <pose>12.5 -3.5 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>rack_three_diverse_10.dae</uri>
@@ -570,6 +570,20 @@
         </joint> -->
     </model>
 
+    <model name="curtain_11">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>-9.5 0 0 0 0 1.57079632679</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <model name="rack_three_diverse_12">
         <static>true</static>
         <link name="main">
@@ -598,23 +612,28 @@
         </joint> -->
     </model>
 
+    <model name="curtain_12">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>9.5 0 0 0 0 1.57079632679</pose>
+                <geometry>
+                    <mesh>
+                        <uri>curtain.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <model name="nxp">
         <static>true</static>
         <link name="main">
-            <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
-                <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
-                </geometry>
-            </collision>
             <visual name="objects">
-                <pose>0 7 3 0 0 -1.57079632679</pose>
+                <pose>0 8.0 3 0 0 -1.57079632679</pose>
                 <geometry>
                     <mesh>
-                        <scale>5 7 5</scale>
+                        <scale>5 5 5</scale>
                         <uri>nxp.dae</uri>
                     </mesh>
                 </geometry>
