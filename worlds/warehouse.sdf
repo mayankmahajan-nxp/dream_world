@@ -91,15 +91,15 @@
     <model name="street_1">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>2 0 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <scale>0.75 0.75 0.75</scale>
+                        <uri>street.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>2 0 0 0 0 0</pose>
                 <geometry>
@@ -110,25 +110,20 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
     <model name="street_2">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>-2 0 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <scale>0.75 0.75 0.75</scale>
+                        <uri>street.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>-2 0 0 0 0 0</pose>
                 <geometry>
@@ -139,25 +134,20 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
     <model name="street_end_1">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>-14 0 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <scale>0.75 0.75 0.75</scale>
+                        <uri>street.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>-14 0 0 0 0 0</pose>
                 <geometry>
@@ -168,25 +158,20 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
     <model name="street_end_2">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>14 0 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <scale>0.75 0.75 0.75</scale>
+                        <uri>street.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>14 0 0 0 0 0</pose>
                 <geometry>
@@ -197,25 +182,20 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
     <model name="fire_1">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>-5 0 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <scale>3 3 3</scale>
+                        <uri>fire.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>-5 0 0 0 0 0</pose>
                 <geometry>
@@ -226,25 +206,20 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
     <model name="fire_2">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>5 0 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <scale>3 3 3</scale>
+                        <uri>fire.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>5 0 0 0 0 0</pose>
                 <geometry>
@@ -255,11 +230,6 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
     <model name="curtain_1">
@@ -279,15 +249,14 @@
     <model name="rack_three_diverse_1">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>-4 -4 0 0 0 0.78539816339</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_1.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>-4 -4 0 0 0 0.78539816339</pose>
                 <geometry>
@@ -297,14 +266,9 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
-    <model name="curtain_2">
+    <!-- <model name="curtain_2">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -321,15 +285,14 @@
     <model name="rack_three_diverse_2">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>4 4 0 0 0 0.78539816339</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_2.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>4 4 0 0 0 0.78539816339</pose>
                 <geometry>
@@ -339,12 +302,7 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
-    </model>
+    </model> -->
 
     <model name="curtain_3">
         <static>true</static>
@@ -363,15 +321,14 @@
     <model name="rack_three_diverse_3">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>4 -4 0 0 0 -0.78539816339</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_3.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>4 -4 0 0 0 -0.78539816339</pose>
                 <geometry>
@@ -381,14 +338,9 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
-    <model name="curtain_4">
+    <!-- <model name="curtain_4">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -405,15 +357,14 @@
     <model name="rack_three_diverse_4">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>-4 4 0 0 0 -0.78539816339</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_4.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>-4 4 0 0 0 -0.78539816339</pose>
                 <geometry>
@@ -423,14 +374,9 @@
                 </geometry>
             </visual>
         </link>
+    </model> -->
 
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
-    </model>
-
-    <model name="curtain_7">
+    <!-- <model name="curtain_7">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -447,15 +393,14 @@
     <model name="rack_three_diverse_7">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>0 -3.0 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_7.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>0 -3.0 0 0 0 0</pose>
                 <geometry>
@@ -465,12 +410,7 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
-    </model>
+    </model> -->
 
     <model name="curtain_8">
         <static>true</static>
@@ -489,15 +429,14 @@
     <model name="rack_three_diverse_8">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>0 3.0 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_8.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>0 3.0 0 0 0 0</pose>
                 <geometry>
@@ -507,14 +446,9 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
-    <model name="curtain_5">
+    <!-- <model name="curtain_5">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -531,15 +465,14 @@
     <model name="rack_three_diverse_5">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>-12.5 3.5 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_5.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>-12.5 3.5 0 0 0 0</pose>
                 <geometry>
@@ -549,12 +482,7 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
-    </model>
+    </model> -->
 
     <model name="curtain_6">
         <static>true</static>
@@ -573,15 +501,14 @@
     <model name="rack_three_diverse_6">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>12.5 3.5 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_6.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>12.5 3.5 0 0 0 0</pose>
                 <geometry>
@@ -591,14 +518,9 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
-    <model name="curtain_9">
+    <!-- <model name="curtain_9">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -615,15 +537,14 @@
     <model name="rack_three_diverse_9">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>-12.5 -3.5 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_9.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>-12.5 -3.5 0 0 0 0</pose>
                 <geometry>
@@ -633,14 +554,9 @@
                 </geometry>
             </visual>
         </link>
+    </model> -->
 
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
-    </model>
-
-    <model name="curtain_10">
+    <!-- <model name="curtain_10">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -657,15 +573,14 @@
     <model name="rack_three_diverse_10">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>12.5 -3.5 0 0 0 0</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_10.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>12.5 -3.5 0 0 0 0</pose>
                 <geometry>
@@ -675,25 +590,19 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
-    </model>
+    </model> -->
 
     <model name="rack_three_diverse_11">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>-9.5 0 0 0 0 1.57079632679</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_11.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>-9.5 0 0 0 0 1.57079632679</pose>
                 <geometry>
@@ -703,11 +612,6 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
     <model name="curtain_11">
@@ -727,15 +631,14 @@
     <model name="rack_three_diverse_12">
         <static>true</static>
         <link name="main">
-            <!-- <collision name="collision">
-                <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <pose>9.5 0 0 0 0 1.57079632679</pose>
                 <geometry>
-                    <plane>
-                        <normal>0 0 1</normal>
-                        <size>100 100</size>
-                    </plane>
+                    <mesh>
+                        <uri>rack_three_diverse_12.dae</uri>
+                    </mesh>
                 </geometry>
-            </collision> -->
+            </collision>
             <visual name="objects">
                 <pose>9.5 0 0 0 0 1.57079632679</pose>
                 <geometry>
@@ -745,11 +648,6 @@
                 </geometry>
             </visual>
         </link>
-
-        <!-- <joint name="world_joint" type="fixed">
-            <parent>world</parent>
-            <child>main</child>
-        </joint> -->
     </model>
 
     <model name="curtain_12">

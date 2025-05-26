@@ -3,21 +3,6 @@
     <model name="Depot">
         <static>false</static>
         <link name="main">
-            <!--
-            <light type="point" name="fan_light">
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>50</range>
-                    <linear>0</linear>
-                    <constant>0</constant>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            -->
-
             <light name="light_1" type="point">
                 <pose>-5.5 -5.5 2 0 0 0</pose>
                 <diffuse>1 1 1 1</diffuse>
