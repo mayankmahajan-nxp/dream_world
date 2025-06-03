@@ -92,7 +92,7 @@
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>2 0 0 0 0 0</pose>
+                <pose>3 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>0.75 0.75 0.75</scale>
@@ -101,7 +101,7 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>2 0 0 0 0 0</pose>
+                <pose>3 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>0.75 0.75 0.75</scale>
@@ -116,7 +116,7 @@
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>-2 0 0 0 0 0</pose>
+                <pose>-3 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>0.75 0.75 0.75</scale>
@@ -125,107 +125,11 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-2 0 0 0 0 0</pose>
+                <pose>-3 0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>0.75 0.75 0.75</scale>
                         <uri>street.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="street_end_1">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>-14 0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <scale>0.75 0.75 0.75</scale>
-                        <uri>street.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>-14 0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <scale>0.75 0.75 0.75</scale>
-                        <uri>street.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="street_end_2">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>14 0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <scale>0.75 0.75 0.75</scale>
-                        <uri>street.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>14 0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <scale>0.75 0.75 0.75</scale>
-                        <uri>street.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="fire_1">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>-5 0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <scale>3 3 3</scale>
-                        <uri>fire.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>-5 0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <scale>3 3 3</scale>
-                        <uri>fire.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="fire_2">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>5 0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <scale>3 3 3</scale>
-                        <uri>fire.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>5 0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <scale>3 3 3</scale>
-                        <uri>fire.dae</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -236,7 +140,7 @@
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>-4 -4 0 0 0 0.78539816339</pose>
+                <pose>-2 -4 0 0 0 0.78539816339</pose>
                 <geometry>
                     <mesh>
                         <uri>curtain.dae</uri>
@@ -246,33 +150,33 @@
         </link>
     </model>
 
-    <model name="rack_three_diverse_1">
+    <model name="shelf_1">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>-4 -4 0 1.57079632679 0 0.78539816339</pose>
+                <pose>-2 -4 0 1.57079632679 0 0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf.glb</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-4 -4 0 1.57079632679 0 0.78539816339</pose>
+                <pose>-2 -4 0 1.57079632679 0 0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf.glb</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
         </link>
     </model>
 
-    <!-- <model name="curtain_2">
+    <model name="curtain_2">
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>4 4 0 0 0 0.78539816339</pose>
+                <pose>2 -4 0 0 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
                         <uri>curtain.dae</uri>
@@ -282,140 +186,32 @@
         </link>
     </model>
 
-    <model name="rack_three_diverse_2">
+    <model name="shelf_2">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>4 4 0 0 0 0.78539816339</pose>
+                <pose>2 -4 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_2.dae</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>4 4 0 0 0 0.78539816339</pose>
+                <pose>2 -4 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_2.dae</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
         </link>
-    </model> -->
+    </model>
 
     <model name="curtain_3">
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>4 -4 0 0 0 -0.78539816339</pose>
-                <geometry>
-                    <mesh>
-                        <uri>curtain.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="rack_three_diverse_3">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>4 -4 0 0 0 -0.78539816339</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_multiple_rows_new.glb</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>4 -4 0 0 0 -0.78539816339</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_multiple_rows_new.glb</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <!-- <model name="curtain_4">
-        <static>true</static>
-        <link name="main">
-            <visual name="objects">
-                <pose>-4 4 0 0 0 -0.78539816339</pose>
-                <geometry>
-                    <mesh>
-                        <uri>curtain.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="rack_three_diverse_4">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>-4 4 0 0 0 -0.78539816339</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_4.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>-4 4 0 0 0 -0.78539816339</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_4.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model> -->
-
-    <!-- <model name="curtain_7">
-        <static>true</static>
-        <link name="main">
-            <visual name="objects">
-                <pose>0 -3.0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>curtain.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="rack_three_diverse_7">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>0 -3.0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_7.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>0 -3.0 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_7.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model> -->
-
-    <model name="curtain_8">
-        <static>true</static>
-        <link name="main">
-            <visual name="objects">
                 <pose>0 3.0 0 0 0 0</pose>
                 <geometry>
                     <mesh>
@@ -426,33 +222,33 @@
         </link>
     </model>
 
-    <model name="rack_three_diverse_8">
+    <model name="shelf_3">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>0 3.0 0 0 0 0</pose>
+                <pose>0 3.0 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_8.dae</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>0 3.0 0 0 0 0</pose>
+                <pose>0 3.0 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_8.dae</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
         </link>
     </model>
 
-    <!-- <model name="curtain_5">
+    <model name="curtain_4">
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>-12.5 3.5 0 0 0 0</pose>
+                <pose>-7 0 0 0 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
                         <uri>curtain.dae</uri>
@@ -462,33 +258,33 @@
         </link>
     </model>
 
-    <model name="rack_three_diverse_5">
+    <model name="shelf_4">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>-12.5 3.5 0 0 0 0</pose>
+                <pose>-7 0 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_5.dae</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-12.5 3.5 0 0 0 0</pose>
+                <pose>-7 0 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_5.dae</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
         </link>
-    </model> -->
+    </model>
 
-    <model name="curtain_6">
+    <model name="curtain_5">
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>12.5 3.5 0 0 0 0</pose>
+                <pose>7 1 0 0 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>curtain.dae</uri>
@@ -498,166 +294,22 @@
         </link>
     </model>
 
-    <model name="rack_three_diverse_6">
+    <model name="shelf_5">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>12.5 3.5 0 0 0 0</pose>
+                <pose>7 1 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_6.dae</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>12.5 3.5 0 0 0 0</pose>
+                <pose>7 1 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>rack_three_diverse_6.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <!-- <model name="curtain_9">
-        <static>true</static>
-        <link name="main">
-            <visual name="objects">
-                <pose>-12.5 -3.5 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>curtain.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="rack_three_diverse_9">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>-12.5 -3.5 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_9.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>-12.5 -3.5 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_9.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model> -->
-
-    <!-- <model name="curtain_10">
-        <static>true</static>
-        <link name="main">
-            <visual name="objects">
-                <pose>12.5 -3.5 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>curtain.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="rack_three_diverse_10">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>12.5 -3.5 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_10.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>12.5 -3.5 0 0 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_10.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model> -->
-
-    <model name="rack_three_diverse_11">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>-9.5 0 0 0 0 1.57079632679</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_11.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>-9.5 0 0 0 0 1.57079632679</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_11.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="curtain_11">
-        <static>true</static>
-        <link name="main">
-            <visual name="objects">
-                <pose>-9.5 0 0 0 0 1.57079632679</pose>
-                <geometry>
-                    <mesh>
-                        <uri>curtain.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="rack_three_diverse_12">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>9.5 0 0 0 0 1.57079632679</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_12.dae</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>9.5 0 0 0 0 1.57079632679</pose>
-                <geometry>
-                    <mesh>
-                        <uri>rack_three_diverse_12.dae</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="curtain_12">
-        <static>true</static>
-        <link name="main">
-            <visual name="objects">
-                <pose>9.5 0 0 0 0 1.57079632679</pose>
-                <geometry>
-                    <mesh>
-                        <uri>curtain.dae</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </visual>

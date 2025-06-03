@@ -3,274 +3,6 @@
     <model name="Depot">
         <static>false</static>
         <link name="main">
-            <light name="light_1" type="point">
-                <pose>-5.5 -5.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_2" type="point">
-                <pose>5.5 -5.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_3" type="point">
-                <pose>-5.5 5.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_4" type="point">
-                <pose>5.5 5.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-
-            <light name="light_mid_1" type="point">
-                <pose>0 5.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_mid_2" type="point">
-                <pose>0 -5.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-
-            <light name="light_5" type="point">
-                <pose>-14 0 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_6" type="point">
-                <pose>14 0 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_7" type="point">
-                <pose>-12.5 -5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_8" type="point">
-                <pose>-12.5 5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-
-            <light name="light_9" type="point">
-                <pose>12.5 -5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_10" type="point">
-                <pose>12.5 5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-
-            <light name="light_11" type="point">
-                <pose>-14 -3.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_12" type="point">
-                <pose>-14 3.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-
-            <light name="light_13" type="point">
-                <pose>14 -3.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_14" type="point">
-                <pose>14 3.5 2 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>6</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-
-            <light name="light_15" type="point">
-                <pose>9.5 -1.0 1 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>2.5</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_16" type="point">
-                <pose>9.5 1.0 1 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>2.5</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-
-            <light name="light_17" type="point">
-                <pose>-9.5 -1.0 1 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>2.5</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-            <light name="light_18" type="point">
-                <pose>-9.5 1.0 1 0 0 0</pose>
-                <diffuse>1 1 1 1</diffuse>
-                <specular>0.3 0.3 0.3 1</specular>
-                <attenuation>
-                    <range>2.5</range>
-                    <constant>0</constant>
-                    <linear>0</linear>
-                    <quadratic>0</quadratic>
-                </attenuation>
-                <cast_shadows>false</cast_shadows>
-                <intensity>1.0</intensity>
-            </light>
-
             <collision name="collision">
                 <pose>0 0 0 0 0 0</pose>
                 <geometry>
@@ -283,7 +15,7 @@
             <visual name="ROOF_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>ROOF</name>
@@ -315,7 +47,7 @@
             <visual name="WALLS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>WALLS</name>
@@ -346,7 +78,7 @@
             <visual name="PILLERS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>PILLERS</name>
@@ -377,7 +109,7 @@
             <visual name="FANS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.7 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FANS</name>
@@ -408,7 +140,7 @@
             <visual name="WINDOW_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>WINDOW</name>
@@ -437,7 +169,7 @@
             <visual name="INTERCOM_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>INTERCOM</name>
@@ -469,7 +201,7 @@
             <visual name="FireAlarm_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FireAlarm</name>
@@ -500,7 +232,7 @@
             <visual name="FireAlarmPole_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FireAlarmPole</name>
@@ -531,7 +263,7 @@
             <visual name="Pipes_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>Pipes</name>
@@ -562,7 +294,7 @@
             <!-- <visual name="STAIRS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>STAIRS</name>
@@ -592,7 +324,7 @@
             <!-- <visual name="BOXSET_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>BOXSET</name>
@@ -623,7 +355,7 @@
             <visual name="FLOOR_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FLOOR</name>
@@ -675,7 +407,7 @@
             <!-- <visual name="crates">
                 <geometry>
                     <mesh>
-                        <scale>0.7 0.7 0.7</scale>
+                        <scale>0.45 0.7 0.7</scale>
                         <uri>meshes/Crates.dae</uri>
                     </mesh>
                 </geometry>
