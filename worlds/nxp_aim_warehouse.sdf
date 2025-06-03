@@ -88,48 +88,48 @@
       </uri>
     </include>
 
-    <model name="street_1">
+    <model name="fire_1">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>3 0 0 0 0 0</pose>
+                <pose>3 0 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <scale>0.75 0.75 0.75</scale>
-                        <uri>street.dae</uri>
+                        <scale>1 1 1</scale>
+                        <uri>street.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>3 0 0 0 0 0</pose>
+                <pose>3 0 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <scale>0.75 0.75 0.75</scale>
-                        <uri>street.dae</uri>
+                        <scale>1 1 1</scale>
+                        <uri>street.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
         </link>
     </model>
 
-    <model name="street_2">
+    <model name="fire_2">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>-3 0 0 0 0 0</pose>
+                <pose>-3 0 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <scale>0.75 0.75 0.75</scale>
-                        <uri>street.dae</uri>
+                        <scale>1 1 1</scale>
+                        <uri>street.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-3 0 0 0 0 0</pose>
+                <pose>-3 0 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <scale>0.75 0.75 0.75</scale>
-                        <uri>street.dae</uri>
+                        <scale>1 1 1</scale>
+                        <uri>street.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -140,7 +140,7 @@
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>-2 -4 0 0 0 0.78539816339</pose>
+                <pose>-2.5 -4 0 0 0 0.78539816339</pose>
                 <geometry>
                     <mesh>
                         <uri>curtain.dae</uri>
@@ -154,7 +154,7 @@
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>-2 -4 0 1.57079632679 0 0.78539816339</pose>
+                <pose>-2.5 -4 0 1.57079632679 0 0.78539816339</pose>
                 <geometry>
                     <mesh>
                         <uri>shelf_1.glb</uri>
@@ -162,7 +162,7 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-2 -4 0 1.57079632679 0 0.78539816339</pose>
+                <pose>-2.5 -4 0 1.57079632679 0 0.78539816339</pose>
                 <geometry>
                     <mesh>
                         <uri>shelf_1.glb</uri>
@@ -176,7 +176,7 @@
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>2 -4 0 0 0 -0.78539816339</pose>
+                <pose>2.5 -4 0 0 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
                         <uri>curtain.dae</uri>
@@ -190,18 +190,18 @@
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>2 -4 0 1.57079632679 0 -0.78539816339</pose>
+                <pose>2.5 -4 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>2 -4 0 1.57079632679 0 -0.78539816339</pose>
+                <pose>2.5 -4 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
