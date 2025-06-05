@@ -272,7 +272,7 @@
         <intensity>1</intensity>
     </light>
 
-    <model name="curtain_1">
+    <!-- <model name="curtain_1">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -284,7 +284,7 @@
                 </geometry>
             </visual>
         </link>
-    </model>
+    </model> -->
 
     <model name="shelf_1">
         <static>true</static>
@@ -335,7 +335,7 @@
         <intensity>1</intensity>
     </light>
 
-    <model name="curtain_2">
+    <!-- <model name="curtain_2">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -347,7 +347,7 @@
                 </geometry>
             </visual>
         </link>
-    </model>
+    </model> -->
 
     <model name="shelf_2">
         <static>true</static>
@@ -356,7 +356,7 @@
                 <pose>1.5 -3.5 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -364,7 +364,7 @@
                 <pose>1.5 -3.5 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -385,7 +385,7 @@
         <intensity>1</intensity>
     </light>
 
-    <model name="curtain_3">
+    <!-- <model name="curtain_3">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -397,7 +397,7 @@
                 </geometry>
             </visual>
         </link>
-    </model>
+    </model> -->
 
     <model name="shelf_3">
         <static>true</static>
@@ -406,7 +406,7 @@
                 <pose>0 2 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_3.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -414,7 +414,7 @@
                 <pose>0 2 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_3.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -448,7 +448,7 @@
         <intensity>1</intensity>
     </light>
 
-    <model name="curtain_4">
+    <!-- <model name="curtain_4">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -460,7 +460,7 @@
                 </geometry>
             </visual>
         </link>
-    </model>
+    </model> -->
 
     <model name="shelf_4">
         <static>true</static>
@@ -469,7 +469,7 @@
                 <pose>-6.5 0 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_4.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -477,7 +477,7 @@
                 <pose>-6.5 0 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_4.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
