@@ -15,7 +15,7 @@
             <visual name="ROOF_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>ROOF</name>
@@ -46,7 +46,7 @@
             <visual name="WALLS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>WALLS</name>
@@ -73,10 +73,10 @@
                     </script>
                 </material>
             </visual>
-            <visual name="PILLERS_visual">
+            <!-- <visual name="PILLERS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>PILLERS</name>
@@ -102,7 +102,7 @@
                         <name>UrbanTile/PILLERS_Diffuse</name>
                     </script>
                 </material>
-            </visual>
+            </visual> -->
             <visual name="FANS_visual">
                 <geometry>
                     <mesh>
@@ -136,7 +136,7 @@
             <visual name="WINDOW_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>WINDOW</name>
@@ -164,7 +164,7 @@
             <visual name="INTERCOM_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>INTERCOM</name>
@@ -195,7 +195,7 @@
             <visual name="FireAlarm_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FireAlarm</name>
@@ -225,7 +225,7 @@
             <visual name="FireAlarmPole_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FireAlarmPole</name>
@@ -255,7 +255,7 @@
             <visual name="Pipes_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>Pipes</name>
@@ -285,7 +285,7 @@
             <!-- <visual name="STAIRS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>STAIRS</name>
@@ -315,7 +315,7 @@
             <!-- <visual name="BOXSET_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>BOXSET</name>
@@ -346,7 +346,7 @@
             <visual name="FLOOR_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FLOOR</name>
@@ -397,7 +397,7 @@
             <!-- <visual name="crates">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Crates.dae</uri>
                     </mesh>
                 </geometry>
