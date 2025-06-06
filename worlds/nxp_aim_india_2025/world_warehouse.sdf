@@ -368,7 +368,7 @@
         <intensity>1</intensity>
     </light>
 
-    <!-- <model name="curtain_1">
+    <model name="curtain_1">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -380,7 +380,7 @@
                 </geometry>
             </visual>
         </link>
-    </model> -->
+    </model>
 
     <model name="shelf_1">
         <static>true</static>
@@ -431,7 +431,7 @@
         <intensity>1</intensity>
     </light>
 
-    <!-- <model name="curtain_2">
+    <model name="curtain_2">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -443,7 +443,7 @@
                 </geometry>
             </visual>
         </link>
-    </model> -->
+    </model>
 
     <model name="shelf_2">
         <static>true</static>
@@ -481,7 +481,7 @@
         <intensity>1</intensity>
     </light>
 
-    <!-- <model name="curtain_3">
+    <model name="curtain_3">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -493,7 +493,7 @@
                 </geometry>
             </visual>
         </link>
-    </model> -->
+    </model>
 
     <model name="shelf_3">
         <static>true</static>
@@ -544,7 +544,7 @@
         <intensity>1</intensity>
     </light>
 
-    <!-- <model name="curtain_4">
+    <model name="curtain_4">
         <static>true</static>
         <link name="main">
             <visual name="objects">
@@ -556,7 +556,7 @@
                 </geometry>
             </visual>
         </link>
-    </model> -->
+    </model>
 
     <model name="shelf_4">
         <static>true</static>

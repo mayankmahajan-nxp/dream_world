@@ -476,10 +476,10 @@
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>-3 3 0 0 0 -0.78539816339</pose>
+                <pose>-3 3 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>curtain.dae</uri>
+                        <uri>curtain.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -493,7 +493,7 @@
                 <pose>3 -3 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -501,7 +501,7 @@
                 <pose>3 -3 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -512,10 +512,10 @@
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>3 -3 0 0 0 0</pose>
+                <pose>3 -3 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>curtain.dae</uri>
+                        <uri>curtain.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
