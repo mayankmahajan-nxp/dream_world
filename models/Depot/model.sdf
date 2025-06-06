@@ -73,7 +73,7 @@
                     </script>
                 </material>
             </visual>
-            <!-- <visual name="PILLERS_visual">
+            <visual name="PILLERS_visual">
                 <geometry>
                     <mesh>
                         <scale>0.45 0.6 0.6</scale>
@@ -102,7 +102,7 @@
                         <name>UrbanTile/PILLERS_Diffuse</name>
                     </script>
                 </material>
-            </visual> -->
+            </visual>
             <visual name="FANS_visual">
                 <geometry>
                     <mesh>
