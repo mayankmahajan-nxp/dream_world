@@ -14,6 +14,8 @@ banana
 https://www.rawpixel.com/image/6041230/photo-image-public-domain-plant-fruit
 car
 https://commons.wikimedia.org/wiki/File:BYD_Seal,_IAA_Open_Space_2023,_Munich_(P1120204).jpg
+lock
+https://commons.wikimedia.org/wiki/File:Svengraph_Lock.png
 
 car
 	https://www.google.com/url?sa=i&url=https%3A%2F%2Funiverse.roboflow.com%2Fnew-workspace-jg9r4%2Ftest-jalv0&psig=AOvVaw1bYEgmSptJyxRcxoAV69FI&ust=1749116132686000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMDHicO7140DFQAAAAAdAAAAABAY
