@@ -607,6 +607,20 @@
         </link>
     </model>
 
+    <model name="curtain_test">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>13 0 0 1.57079632679 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/curtain.glb</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <model name="nxp">
         <static>true</static>
         <link name="main">
