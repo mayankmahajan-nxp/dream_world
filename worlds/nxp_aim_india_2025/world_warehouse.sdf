@@ -88,6 +88,33 @@
       </uri>
     </include>
 
+    <model name='static_corner_camera'>
+        <pose>10 -2 6 0 0.4 -3.17079632679</pose>
+        <static>true</static>
+        <link name="camera_link">
+
+        <sensor name="ov5645" type="camera">
+            <pose>.016 0 .006 0 0 0</pose>
+            <camera>
+                <image>
+                    <width>640</width>
+                    <height>480</height>
+                    <format>B8G8R8</format>
+                </image>
+                <clip>
+                    <near>0.05</near>
+                    <far>100</far>
+                </clip>
+                <optical_frame_id>camera_link_optical</optical_frame_id>
+            </camera>
+            <always_on>1</always_on>
+            <update_rate>30</update_rate>
+            <visualize>true</visualize>
+            <topic>/camera/image_raw_2</topic>
+        </sensor>
+        </link>
+    </model>
+
     <model name="pillar_1">
         <static>true</static>
         <link name="main">
@@ -212,7 +239,7 @@
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>9 6 0 1.57079632679 0 0</pose>
+                <pose>9 6.5 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -221,7 +248,7 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>9 6 0 1.57079632679 0 0</pose>
+                <pose>9 6.5 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -236,7 +263,7 @@
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>3 6 0 1.57079632679 0 0</pose>
+                <pose>3 6.5 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -245,7 +272,7 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>3 6 0 1.57079632679 0 0</pose>
+                <pose>3 6.5 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -260,7 +287,7 @@
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>-3 6 0 1.57079632679 0 3.14159265359</pose>
+                <pose>-3 6.5 0 1.57079632679 0 3.14159265359</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
@@ -269,7 +296,7 @@
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-3 6 0 1.57079632679 0 3.14159265359</pose>
+                <pose>-3 6.5 0 1.57079632679 0 3.14159265359</pose>
                 <geometry>
                     <mesh>
                         <scale>1 1 1</scale>
