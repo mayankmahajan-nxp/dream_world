@@ -1,0 +1,77 @@
+horse
+https://commons.wikimedia.org/wiki/File:Australian_Stock_Horse.jpg
+clock
+https://commons.wikimedia.org/wiki/File:Metric_clock.JPG
+zebra
+https://commons.wikimedia.org/wiki/File:Common_zebra_1.jpg
+plant
+https://commons.wikimedia.org/wiki/File:Plant_tangerine_in_a_pot.jpg
+cup
+https://commons.wikimedia.org/wiki/File:White_cup_of_black_coffee.jpg
+teddy
+https://commons.wikimedia.org/wiki/File:Ours_en_peluche_-_01.jpg
+banana
+https://www.rawpixel.com/image/6041230/photo-image-public-domain-plant-fruit
+car
+https://commons.wikimedia.org/wiki/File:BYD_Seal,_IAA_Open_Space_2023,_Munich_(P1120204).jpg
+
+car
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Funiverse.roboflow.com%2Fnew-workspace-jg9r4%2Ftest-jalv0&psig=AOvVaw1bYEgmSptJyxRcxoAV69FI&ust=1749116132686000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMDHicO7140DFQAAAAAdAAAAABAY
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.needpix.com%2Fphoto%2F1097102%2Fcar-suv-white-background-mercedes-vehicle&psig=AOvVaw1bYEgmSptJyxRcxoAV69FI&ust=1749116132686000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMDHicO7140DFQAAAAAdAAAAABAl
+	https://www.needpix.com/photo/1097102/car-suv-white-background-mercedes-vehicle-isolated-free-pictures-free-photos-free-images
+	https://commons.wikimedia.org/wiki/File:Vintage_blue_car.png
+	https://commons.wikimedia.org/wiki/File:2d_car.jpg
+	https://trans.info/en/tariffs-on-vehicles-china-390027
+
+elephant
+	https://commons.wikimedia.org/wiki/File:Frilagd_elefant.jpg
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Funiverse.roboflow.com%2Felephant-detection-wa5qe%2Felephant-model-05hpq&psig=AOvVaw0g3OksY20ZL1t5a2C4U7-d&ust=1749116315749000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCKDe-JW8140DFQAAAAAdAAAAABAy
+	https://commons.wikimedia.org/wiki/File:Elephant_Addo.jpg
+	https://commons.wikimedia.org/wiki/File:Elephant_(51702646665).jpg
+	https://commons.wikimedia.org/wiki/File:African_Elephant_walking.JPG
+	https://commons.wikimedia.org/wiki/File:Elephant_in_Africa_(37478786891).jpg
+	https://commons.wikimedia.org/wiki/File:African_Elephant.JPG
+
+banana
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stockvault.net%2Fphoto%2F119753%2Fcommon&psig=AOvVaw0JXPoqG8hCorhP7O_GsUlI&ust=1749116395515000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNjgh728140DFQAAAAAdAAAAABAE
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stockvault.net%2Fphoto%2F119763%2Fzlib%2Finftrees&psig=AOvVaw0JXPoqG8hCorhP7O_GsUlI&ust=1749116395515000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNjgh728140DFQAAAAAdAAAAABAL
+	https://commons.wikimedia.org/wiki/File:Bananas_(white_background).jpg
+	https://commons.wikimedia.org/wiki/File:Bananas_white_background_DS.jpg
+	https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg
+	https://www.rawpixel.com/image/6041230/photo-image-public-domain-plant-fruit
+
+horse
+	https://commons.wikimedia.org/wiki/File:Australian_Stock_Horse.jpg
+
+clock
+	https://www.needpix.com/photo/600919/
+	https://www.needpix.com/photo/26351/clock-time-face-roman-twelve-numerals-numbers-reminder-timepiece
+	https://commons.wikimedia.org/wiki/File:2010-07-20_Black_windup_alarm_clock_face.jpg
+	https://commons.wikimedia.org/wiki/File:Metric_clock.JPG
+
+chair
+	https://www.pexels.com/photo/armchair-on-white-background-17488644/
+	https://www.remarkablefurniture.com.au/products/outdoor-large-pad-cushion
+	https://commons.m.wikimedia.org/wiki/File:Leather_executive_chair.jpg
+	https://commons.wikimedia.org/wiki/File:Utility_chair_in_laminated_wood_1950-52.JPG
+	https://commons.wikimedia.org/wiki/File:Office_chair.svg
+
+zebra
+	https://commons.wikimedia.org/wiki/File:Zebra_July_2008-3_white_background.jpg
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fclose-up-shot-of-a-zebra-12334857%2F&psig=AOvVaw1FV7BRRUzPE0l485GiJIpk&ust=1749116790598000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCJCq4fi9140DFQAAAAAdAAAAABAK
+	https://commons.wikimedia.org/wiki/File:Common_zebra_1.jpg
+
+plant
+	https://pxhere.com/en/photo/731149
+	https://commons.wikimedia.org/wiki/File:Plant_tangerine_in_a_pot.jpg
+
+teddy
+	https://commons.wikimedia.org/wiki/File:Ours_en_peluche_-_01.jpg
+
+cup
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodfon.com%2Ffood%2Fwallpaper-kofe-chashka-zerna-blyudce-belyy.html&psig=AOvVaw3IHAzvrKrHWvp5RCgQJe6m&ust=1749116906212000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMjty7K-140DFQAAAAAdAAAAABAY
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Funiverse.roboflow.com%2Fpython-219lr%2Fmug-detection-vcok4&psig=AOvVaw3IHAzvrKrHWvp5RCgQJe6m&ust=1749116906212000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMjty7K-140DFQAAAAAdAAAAABAl
+	https://commons.wikimedia.org/wiki/File:White_cup_filled_with_coffee.jpg
+	https://commons.wikimedia.org/wiki/File:White_cup_of_black_coffee.jpg
+	https://commons.wikimedia.org/wiki/File:White_cup_of_black_coffee.jpg
+	https://upload.wikimedia.org/wikipedia/commons/5/58/Cup-dynamic-premium.png

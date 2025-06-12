@@ -356,7 +356,7 @@
     </model>
 
     <light name="light_1_1" type="point">
-        <pose>7.5 1 1 0 0 0</pose>
+        <pose>8 1 1 0 0 0</pose>
         <diffuse>1 1 1 1</diffuse>
         <specular>0.3 0.3 0.3 1</specular>
         <attenuation>
@@ -369,7 +369,7 @@
         <intensity>1</intensity>
     </light>
     <light name="light_1_2" type="point">
-        <pose>6.5 3 1 0 0 0</pose>
+        <pose>7 3 1 0 0 0</pose>
         <diffuse>1 1 1 1</diffuse>
         <specular>0.3 0.3 0.3 1</specular>
         <attenuation>
@@ -382,7 +382,7 @@
         <intensity>1</intensity>
     </light>
     <light name="light_1_3" type="point">
-        <pose>6.5 -1 1 0 0 0</pose>
+        <pose>7 -1 1 0 0 0</pose>
         <diffuse>1 1 1 1</diffuse>
         <specular>0.3 0.3 0.3 1</specular>
         <attenuation>
@@ -399,7 +399,7 @@
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>6.5 1 0 1.57079632679 0 0</pose>
+                <pose>7 1 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>curtain.glb</uri>
@@ -409,22 +409,22 @@
         </link>
     </model>
 
-    <model name="shelf_1">
+    <model name="shelf_4">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>6.5 1 0 1.57079632679 0 0</pose>
+                <pose>7 1 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_4.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>6.5 1 0 1.57079632679 0 0</pose>
+                <pose>7 1 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>shelf_4.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -472,14 +472,14 @@
         </link>
     </model>
 
-    <model name="shelf_2">
+    <model name="shelf_1">
         <static>true</static>
         <link name="main">
             <collision name="collision">
                 <pose>1.5 -3.5 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_2.glb</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -487,7 +487,7 @@
                 <pose>1.5 -3.5 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_2.glb</uri>
+                        <uri>shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -522,14 +522,14 @@
         </link>
     </model>
 
-    <model name="shelf_3">
+    <model name="shelf_2">
         <static>true</static>
         <link name="main">
             <collision name="collision">
                 <pose>0 2 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_3.glb</uri>
+                        <uri>shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -537,7 +537,7 @@
                 <pose>0 2 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_3.glb</uri>
+                        <uri>shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -545,7 +545,7 @@
     </model>
 
     <light name="light_4_1" type="point">
-        <pose>-7.5 1 1 0 0 0</pose>
+        <pose>-7 0 1 0 0 0</pose>
         <diffuse>1 1 1 1</diffuse>
         <specular>0.3 0.3 0.3 1</specular>
         <attenuation>
@@ -558,7 +558,7 @@
         <intensity>1</intensity>
     </light>
     <light name="light_4_2" type="point">
-        <pose>-7.5 -1 1 0 0 0</pose>
+        <pose>-7 -2 1 0 0 0</pose>
         <diffuse>1 1 1 1</diffuse>
         <specular>0.3 0.3 0.3 1</specular>
         <attenuation>
@@ -575,7 +575,7 @@
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>-6.5 0 0 1.57079632679 0 -0.78539816339</pose>
+                <pose>-6 -1 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
                         <uri>curtain.glb</uri>
@@ -585,22 +585,22 @@
         </link>
     </model>
 
-    <model name="shelf_4">
+    <model name="shelf_3">
         <static>true</static>
         <link name="main">
             <collision name="collision">
-                <pose>-6.5 0 0 1.57079632679 0 -0.78539816339</pose>
+                <pose>-6 -1 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_4.glb</uri>
+                        <uri>shelf_3.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
             <visual name="objects">
-                <pose>-6.5 0 0 1.57079632679 0 -0.78539816339</pose>
+                <pose>-6 -1 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_4.glb</uri>
+                        <uri>shelf_3.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
