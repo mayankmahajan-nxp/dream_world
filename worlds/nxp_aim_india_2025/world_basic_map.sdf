@@ -450,6 +450,20 @@
       <self_collide>false</self_collide>
     </model>
 
+    <!-- <model name="curtain_1">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>-3 3 0 1.57079632679 0 -0.78539816339</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/curtain.glb</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model> -->
+
     <model name="shelf_1">
         <static>true</static>
         <link name="main">
@@ -457,7 +471,7 @@
                 <pose>-3 3 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
+                        <uri>models/shelf_1_basic.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -465,43 +479,7 @@
                 <pose>-3 3 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>shelf_1.glb</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="curtain_1">
-        <static>true</static>
-        <link name="main">
-            <visual name="objects">
-                <pose>-3 3 0 1.57079632679 0 -0.78539816339</pose>
-                <geometry>
-                    <mesh>
-                        <uri>curtain.glb</uri>
-                    </mesh>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-
-    <model name="shelf_2">
-        <static>true</static>
-        <link name="main">
-            <collision name="collision">
-                <pose>3 -3 0 1.57079632679 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>shelf_2.glb</uri>
-                    </mesh>
-                </geometry>
-            </collision>
-            <visual name="objects">
-                <pose>3 -3 0 1.57079632679 0 0</pose>
-                <geometry>
-                    <mesh>
-                        <uri>shelf_2.glb</uri>
+                        <uri>models/shelf_1_basic.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -515,7 +493,29 @@
                 <pose>3 -3 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>curtain.glb</uri>
+                        <uri>models/curtain.glb</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
+    <model name="shelf_2">
+        <static>true</static>
+        <link name="main">
+            <collision name="collision">
+                <pose>3 -3 0 1.57079632679 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/shelf_2_basic.glb</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="objects">
+                <pose>3 -3 0 1.57079632679 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/shelf_2_basic.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
