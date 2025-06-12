@@ -522,6 +522,20 @@
         </link>
     </model>
 
+    <model name="curtain_test">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>8 0 0 1.57079632679 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/curtain.glb</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
     <!-- <light name="light_0" type="point">
         <pose>0 0 10 0 0 0</pose>
         <diffuse>1 1 1 1</diffuse>
