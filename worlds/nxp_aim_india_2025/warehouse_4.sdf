@@ -545,20 +545,20 @@
       <self_collide>false</self_collide>
     </model> -->
     <model name='cube_2'>
-      <pose>1 -7 .5 0 0 0</pose>
+      <pose>2.5 -6 .5 0 0 0</pose>
       <static>true</static>
       <link name='link'>
         <collision name='collision'>
           <geometry>
             <box>
-              <size>.5 .5 1</size>
+              <size>5 .5 1</size>
             </box>
           </geometry>
         </collision>
         <visual name='visual'>
           <geometry>
             <box>
-              <size>.5 .5 1</size>
+              <size>5 .5 1</size>
             </box>
           </geometry>
           <material>
@@ -687,7 +687,7 @@
                 <pose>-3 -2 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>models/warehouse_3_shelf_2.glb</uri>
+                        <uri>models/warehouse_4_shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -695,7 +695,7 @@
                 <pose>-3 -2 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
-                        <uri>models/warehouse_3_shelf_2.glb</uri>
+                        <uri>models/warehouse_4_shelf_2.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -889,6 +889,112 @@
         <intensity>1.0</intensity>
     </light>
 
+    <light name="light_4_1" type="point">
+        <pose>4.0 10.0 1 0 0 0</pose>
+        <diffuse>1 1 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+        <attenuation>
+            <range>3</range>
+            <constant>0</constant>
+            <linear>0</linear>
+            <quadratic>0</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+        <intensity>1.0</intensity>
+    </light>
+    <light name="light_4_2" type="point">
+        <pose>2.0 10.0 1 0 0 0</pose>
+        <diffuse>1 1 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+        <attenuation>
+            <range>3</range>
+            <constant>0</constant>
+            <linear>0</linear>
+            <quadratic>0</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+        <intensity>1.0</intensity>
+    </light>
+    <light name="light_4_3" type="point">
+        <pose>4.0 12.0 1 0 0 0</pose>
+        <diffuse>1 1 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+        <attenuation>
+            <range>3</range>
+            <constant>0</constant>
+            <linear>0</linear>
+            <quadratic>0</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+        <intensity>1.0</intensity>
+    </light>
+    <light name="light_4_4" type="point">
+        <pose>2.0 12.0 1 0 0 0</pose>
+        <diffuse>1 1 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+        <attenuation>
+            <range>3</range>
+            <constant>0</constant>
+            <linear>0</linear>
+            <quadratic>0</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+        <intensity>1.0</intensity>
+    </light>
+
+    <light name="light_5_1" type="point">
+        <pose>-3 12.5 1 0 0 0</pose>
+        <diffuse>1 1 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+        <attenuation>
+            <range>3</range>
+            <constant>0</constant>
+            <linear>0</linear>
+            <quadratic>0</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+        <intensity>1.0</intensity>
+    </light>
+    <light name="light_5_2" type="point">
+        <pose>-3 9.5 1 0 0 0</pose>
+        <diffuse>1 1 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+        <attenuation>
+            <range>3</range>
+            <constant>0</constant>
+            <linear>0</linear>
+            <quadratic>0</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+        <intensity>1.0</intensity>
+    </light>
+    <light name="light_5_3" type="point">
+        <pose>-4.5 11 1 0 0 0</pose>
+        <diffuse>1 1 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+        <attenuation>
+            <range>3</range>
+            <constant>0</constant>
+            <linear>0</linear>
+            <quadratic>0</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+        <intensity>1.0</intensity>
+    </light>
+    <light name="light_5_4" type="point">
+        <pose>-1.5 11 1 0 0 0</pose>
+        <diffuse>1 1 1 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+        <attenuation>
+            <range>3</range>
+            <constant>0</constant>
+            <linear>0</linear>
+            <quadratic>0</quadratic>
+        </attenuation>
+        <cast_shadows>false</cast_shadows>
+        <intensity>1.0</intensity>
+    </light>
+
     <model name="curtain_3">
         <static>true</static>
         <link name="main">
@@ -910,7 +1016,7 @@
                 <pose>3 -11 0 1.57079632679 0 1.57079632679</pose>
                 <geometry>
                     <mesh>
-                        <uri>models/warehouse_3_shelf_3.glb</uri>
+                        <uri>models/warehouse_4_shelf_3.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -918,7 +1024,79 @@
                 <pose>3 -11 0 1.57079632679 0 1.57079632679</pose>
                 <geometry>
                     <mesh>
-                        <uri>models/warehouse_3_shelf_3.glb</uri>
+                        <uri>models/warehouse_4_shelf_3.glb</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
+    <model name="curtain_4">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>3 11 0 1.57079632679 0 0.78539816339</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/curtain.glb</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
+    <model name="shelf_4">
+        <static>true</static>
+        <link name="main">
+            <collision name="collision">
+                <pose>3 11 0 1.57079632679 0 0.78539816339</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/warehouse_4_shelf_4.glb</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="objects">
+                <pose>3 11 0 1.57079632679 0 0.78539816339</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/warehouse_4_shelf_4.glb</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
+    <model name="curtain_5">
+        <static>true</static>
+        <link name="main">
+            <visual name="objects">
+                <pose>-3 11 0 1.57079632679 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/curtain.glb</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+
+    <model name="shelf_5">
+        <static>true</static>
+        <link name="main">
+            <collision name="collision">
+                <pose>-3 11 0 1.57079632679 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/warehouse_4_shelf_5.glb</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="objects">
+                <pose>-3 11 0 1.57079632679 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>models/warehouse_4_shelf_5.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
@@ -946,7 +1124,7 @@
                 <pose>-4 -11 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>models/warehouse_3_shelf_1.glb</uri>
+                        <uri>models/warehouse_4_shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </collision>
@@ -954,7 +1132,7 @@
                 <pose>-4 -11 0 1.57079632679 0 -0.78539816339</pose>
                 <geometry>
                     <mesh>
-                        <uri>models/warehouse_3_shelf_1.glb</uri>
+                        <uri>models/warehouse_4_shelf_1.glb</uri>
                     </mesh>
                 </geometry>
             </visual>
