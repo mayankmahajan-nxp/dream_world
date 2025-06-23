@@ -133,7 +133,7 @@
       <self_collide>false</self_collide>
     </model>
 
-    <model name="pillar_1">
+    <!-- <model name="pillar_1">
         <static>true</static>
         <link name="main">
             <collision name="collision">
@@ -155,7 +155,7 @@
                 </geometry>
             </visual>
         </link>
-    </model>
+    </model> -->
 
     <model name="pillar_2">
         <static>true</static>
@@ -505,7 +505,7 @@
       </link>
       <self_collide>false</self_collide>
     </model>
-    <model name='cube_1'>
+    <!-- <model name='cube_1'>
       <pose>-4 11.5 .5 0 0 .5</pose>
       <static>true</static>
       <link name='link'>
@@ -543,7 +543,7 @@
         <enable_wind>false</enable_wind>
       </link>
       <self_collide>false</self_collide>
-    </model>
+    </model> -->
     <model name='cube_2'>
       <pose>1 -7 .5 0 0 0</pose>
       <static>true</static>
