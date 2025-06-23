@@ -706,7 +706,7 @@
         <static>true</static>
         <link name="main">
             <visual name="objects">
-                <pose>8.5 0 0 1.57079632679 0 0</pose>
+                <pose>8.0 0 0 1.57079632679 0 0</pose>
                 <geometry>
                     <mesh>
                         <uri>models/curtain.glb</uri>

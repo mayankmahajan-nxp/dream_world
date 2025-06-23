@@ -1,12 +1,12 @@
 STARTING POSE (x, y, yaw)
-(0, 0, 0)  # warehouse_1.
-(0, -7, 1.57)  # warehouse_2.
-(0, -7, 1.57)  # warehouse_3.
-(0, -7, 1.57)  # warehouse_4.
+(0.0, 0.0, 0.0)      # warehouse_1.
+(0.0, -7.0, 1.57)  # warehouse_2.
+(5.0, -2.0, 3.14)  # warehouse_3.
+(0.0, -7.0, 1.57)  # warehouse_4.
 
 INITIAL_ANGLE = 135.0  # warehouse_1.
 INITIAL_ANGLE = 040.6  # warehouse_2.
-INITIAL_ANGLE = 135.0  # warehouse_3.
+INITIAL_ANGLE = 045.0  # warehouse_3.
 INITIAL_ANGLE = 040.6  # warehouse_4.
 INITIAL_ANGLE = 69.0   # regional_finale.
 
