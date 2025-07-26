@@ -15,7 +15,7 @@
             <visual name="ROOF_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>ROOF</name>
@@ -36,7 +36,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -47,7 +46,7 @@
             <visual name="WALLS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>WALLS</name>
@@ -67,7 +66,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -78,7 +76,7 @@
             <visual name="PILLERS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>PILLERS</name>
@@ -98,7 +96,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -129,7 +126,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -140,7 +136,7 @@
             <visual name="WINDOW_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>WINDOW</name>
@@ -158,7 +154,6 @@
                             <roughness_map>materials/textures/Window_WINDOW_Roughness.png</roughness_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -169,7 +164,7 @@
             <visual name="INTERCOM_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>INTERCOM</name>
@@ -190,7 +185,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -201,7 +195,7 @@
             <visual name="FireAlarm_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FireAlarm</name>
@@ -221,7 +215,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -232,7 +225,7 @@
             <visual name="FireAlarmPole_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FireAlarmPole</name>
@@ -252,7 +245,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -263,7 +255,7 @@
             <visual name="Pipes_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>Pipes</name>
@@ -283,7 +275,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -291,10 +282,10 @@
                     </script>
                 </material>
             </visual>
-            <visual name="STAIRS_visual">
+            <!-- <visual name="STAIRS_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>STAIRS</name>
@@ -314,18 +305,17 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
                         <name>UrbanTile/STAIRS_Diffuse</name>
                     </script>
                 </material>
-            </visual>
-            <visual name="BOXSET_visual">
+            </visual> -->
+            <!-- <visual name="BOXSET_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>BOXSET</name>
@@ -346,18 +336,17 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
                         <name>UrbanTile/BOXSET_Diffuse</name>
                     </script>
                 </material>
-            </visual>
+            </visual> -->
             <visual name="FLOOR_visual">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Depot.dae</uri>
                         <submesh>
                             <name>FLOOR</name>
@@ -377,7 +366,6 @@
                             <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
                         </metal>
                     </pbr>
-                    <!-- fallback to script if no PBR support-->
                     <script>
                         <uri>materials/scripts/</uri>
                         <uri>materials/textures/</uri>
@@ -406,10 +394,10 @@
                     </pbr>
                 </material>
             </visual>
-            <visual name="crates">
+            <!-- <visual name="crates">
                 <geometry>
                     <mesh>
-                        <scale>0.6 0.6 0.6</scale>
+                        <scale>0.45 0.6 0.6</scale>
                         <uri>meshes/Crates.dae</uri>
                     </mesh>
                 </geometry>
@@ -424,7 +412,7 @@
                         </metal>
                     </pbr>
                 </material>
-            </visual>
+            </visual> -->
         </link>
         <link name="Fan1">
             <pose>-5.0154 -0.2952 6.12 0 0 0</pose>
