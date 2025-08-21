@@ -139,14 +139,14 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>20 .01 1</size>
+              <size>8 .01 1</size>
             </box>
           </geometry>
         </collision>
         <visual name='visual'>
           <geometry>
             <box>
-              <size>20 .01 1</size>
+              <size>8 .01 1</size>
             </box>
           </geometry>
           <material>
@@ -178,14 +178,14 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>20 .01 1</size>
+              <size>8 .01 1</size>
             </box>
           </geometry>
         </collision>
         <visual name='visual'>
           <geometry>
             <box>
-              <size>20 .01 1</size>
+              <size>8 .01 1</size>
             </box>
           </geometry>
           <material>
@@ -217,14 +217,14 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>20 .01 1</size>
+              <size>8 .01 1</size>
             </box>
           </geometry>
         </collision>
         <visual name='visual'>
           <geometry>
             <box>
-              <size>20 .01 1</size>
+              <size>8 .01 1</size>
             </box>
           </geometry>
           <material>
@@ -256,14 +256,14 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>20 .01 1</size>
+              <size>8 .01 1</size>
             </box>
           </geometry>
         </collision>
         <visual name='visual'>
           <geometry>
             <box>
-              <size>20 .01 1</size>
+              <size>8 .01 1</size>
             </box>
           </geometry>
           <material>
@@ -290,7 +290,7 @@
     </model>
 
     <model name='cylinder_1'>
-      <pose>0.75 -0.75 0 0 0 0</pose>
+      <pose>1.0 -0.50 0 0 0 0</pose>
       <static>true</static>
       <link name='link'>
         <collision name='collision'>
@@ -331,7 +331,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='cylinder_2'>
-      <pose>0.75 -1.25 0 0 0 0</pose>
+      <pose>1.0 -1.25 0 0 0 0</pose>
       <static>true</static>
       <link name='link'>
         <collision name='collision'>
@@ -372,7 +372,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='cylinder_3'>
-      <pose>1.25 -0.75 0 0 0 0</pose>
+      <pose>1.0 -2.00 0 0 0 0</pose>
       <static>true</static>
       <link name='link'>
         <collision name='collision'>
@@ -412,47 +412,7 @@
       </link>
       <self_collide>false</self_collide>
     </model>
-    <model name='cylinder_4'>
-      <pose>1.25 -1.25 0 0 0 0</pose>
-      <static>true</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <cylinder>
-              <length>0.5</length>
-              <radius>.175</radius>
-            </cylinder>
-          </geometry>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <length>0.5</length>
-              <radius>.175</radius>
-            </cylinder>
-          </geometry>
-          <material>
-            <ambient>0.7 0.7 0.7 1</ambient>
-            <diffuse>0.7 0.7 0.7 1</diffuse>
-            <specular>0.7 0.7 0.7 1</specular>
-          </material>
-        </visual>
-        <inertial>
-          <pose>0 0 0 0 0 0</pose>
-          <mass>1</mass>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <enable_wind>false</enable_wind>
-      </link>
-      <self_collide>false</self_collide>
-    </model>
+
 
     <light name='sunUTC' type='directional'>
       <pose>0 0 500 0 0 0</pose>
